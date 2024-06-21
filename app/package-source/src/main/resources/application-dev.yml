@@ -1,0 +1,22 @@
+server:
+  port: 8080
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://chenlong.site:3306/mall?serverTimezone=GMT%2b8
+    password: ENC(LboqLeYOgvLzF5MwcLCxsbYCOWY/+Tev)
+    username: root
+  redis:
+    database: 0
+    host: chenlong.site
+    password: ENC(834cpvywFsCH7ATWf8X0Hw72P7M+v9fD)
+    port: 6379
+    timeout: 1000ms
+  rabbitmq:
+    host: chenlong.site
+    port: 5672
+    virtual-host: /mall
+    username: root
+    password: ENC(wYXwU+SReGIhSAh15w2X3g04YSJrHL4UP8bA2sOaVI8=)
+    publisher-confirm-type: correlated #消息发送到交换器确认
+    publisher-returns: true #消息发送到队列确认

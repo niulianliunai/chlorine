@@ -1,0 +1,5 @@
+
+minio:
+  username: admin
+  password: ENC(RcJW4mSUfRXqmiZmb8SFzd01WaKBmulM)
+  url: http://chenlong.site:9000

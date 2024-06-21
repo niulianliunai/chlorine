@@ -1,0 +1,28 @@
+server:
+  port: 8080
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://mysql:3306/mall?serverTimezone=GMT%2b8
+    username: root
+    password: ENC(LboqLeYOgvLzF5MwcLCxsbYCOWY/+Tev)
+  redis:
+    database: 0
+    host: redis
+    password: ENC(834cpvywFsCH7ATWf8X0Hw72P7M+v9fD)
+    port: 6379
+    timeout: 1000ms
+  rabbitmq:
+    host: rabbitmq
+    port: 5672
+    virtual-host: /mall
+    username: root
+    password: ENC(wYXwU+SReGIhSAh15w2X3g04YSJrHL4UP8bA2sOaVI8=)
+    publisher-confirm-type: correlated #消息发送到交换器确认
+    publisher-returns: true #消息发送到队列确认
+
+springfox:
+  documentation:
+    swagger:
+      v2:
+        host: chenlong.site/mall

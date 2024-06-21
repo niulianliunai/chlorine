@@ -1,0 +1,35 @@
+
+spring:
+  servlet:
+    multipart:
+      max-file-size: 10MB
+  profiles:
+    active: dev
+  jpa:
+    hibernate:
+      ddl-auto: update
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+    show-sql: true
+  main:
+    allow-bean-definition-overriding: true
+
+
+jwt:
+  expiration: 64800
+  secret: mySecret
+  tokenHead: Bearer
+  tokenHeader: Authorization
+
+minio:
+  username: minio
+  password: ENC(RcJW4mSUfRXqmiZmb8SFzd01WaKBmulM)
+  url: http://chenlong.site:9000
+
+redis:
+  database: mall
+  key:
+    user: 'user'
+    permissionList: 'permissionList'
+  expire:
+    common: 86400 # 24小时
