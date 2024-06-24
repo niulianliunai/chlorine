@@ -1,5 +1,6 @@
 package com.chlorine.base.mvc.entity;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Getter;
 import lombok.Setter;
 import org.hibernate.annotations.DynamicInsert;
@@ -27,20 +28,24 @@ public abstract class BaseEntity {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     protected Long id;
 
+    @JsonProperty(access = JsonProperty.Access.READ_ONLY)
     @CreatedDate
     @Column(name = "create_time", updatable = false)
     protected Long createTime;
 
+    @JsonProperty(access = JsonProperty.Access.READ_ONLY)
     @LastModifiedDate
     @Column(name = "update_time")
     private Long updateTime;
+
+    @Column(name = "version",columnDefinition = " int(11) default 0 ")
+    private Integer version;
 
     @Transient
     private Integer pageSize;
 
     @Transient
     private Integer pageNumber;
-
 
     @Transient
     private Map<String, Object> params = new HashMap<>();

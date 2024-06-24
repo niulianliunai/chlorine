@@ -48,6 +48,31 @@
         <finalName>mall</finalName>
         <plugins>
             <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-antrun-plugin</artifactId>
+                <version>3.0.0</version>
+                <executions>
+                    <execution>
+                        <phase>install</phase> <!-- 选择合适的构建生命周期阶段 -->
+                        <goals>
+                            <goal>run</goal>
+                        </goals>
+                        <configuration>
+                            <target>
+                                <exec executable="scp">
+                                    <arg value="${project.build.directory}/${project.build.finalName}.jar" /> <!-- 本地文件路径 -->
+                                    <arg value="root@chenlong.site:/root/docker-compose/app/mall/" /> <!-- 服务器用户名和路径 -->
+                                </exec>
+                                <exec executable="bash">
+                                    <arg value="execute_remote_commands.sh" />
+                                </exec>
+                            </target>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+
+            <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>

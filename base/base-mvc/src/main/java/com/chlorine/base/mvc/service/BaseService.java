@@ -4,11 +4,14 @@ import com.chlorine.base.mvc.util.FieldUtil;
 import com.chlorine.base.mvc.entity.BaseEntity;
 import com.chlorine.base.mvc.repository.BaseRepository;
 import com.chlorine.base.util.UpdateUtil;
+import org.springframework.dao.OptimisticLockingFailureException;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.jpa.domain.Specification;
 
+import javax.persistence.EntityNotFoundException;
 import javax.persistence.criteria.*;
+import javax.transaction.Transactional;
 import java.time.LocalDateTime;
 import java.util.*;
 
@@ -23,15 +26,29 @@ public abstract class BaseService<Entity extends BaseEntity> {
         Optional<Entity> exist = findByEntity(entity);
         return exist.orElseGet(() -> repository.save(entity));
     }
+    @Transactional
     public Entity save(Entity entity) {
         if (entity.getId() != null) {
-            Entity target = findById(entity.getId()).get();
-            UpdateUtil.copyNullProperties(entity, target);
-            return repository.save(target);
+            try {
+                Optional<Entity> optionalEntity = repository.findById(entity.getId());
+                if (optionalEntity.isPresent()) {
+                    Entity target = optionalEntity.get();
+                    // 使用乐观锁，假设Entity类有个version字段
+                    if (entity.getVersion() != null && !entity.getVersion().equals(target.getVersion())) {
+                        throw new OptimisticLockingFailureException("Entity was updated by another transaction");
+                    }
+                    UpdateUtil.copyNullProperties(entity, target);
+                    target.setVersion(target.getVersion() + 1); // 增加版本号
+                    return repository.save(target);
+                } else {
+                    throw new EntityNotFoundException("Entity not found with id " + entity.getId());
+                }
+            } catch (NoSuchElementException e) {
+                throw new EntityNotFoundException("Entity not found with id " + entity.getId());
+            }
         }
         return repository.save(entity);
     }
-
     public List<Entity> findByField(String field, String value) {
         return repository.findAll((Specification<Entity>) (root, criteriaQuery, criteriaBuilder) -> {
             List<Predicate> predicateList = new ArrayList<>();
