@@ -6,6 +6,7 @@
     <modules>
         <module>component</module>
         <module>base</module>
+        <module>system</module>
         <module>app</module>
     </modules>
     <parent>

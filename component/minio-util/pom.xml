@@ -45,7 +45,7 @@
         </dependency>
         <dependency>
             <groupId>com.chlorine</groupId>
-            <artifactId>base-auth</artifactId>
+            <artifactId>auth</artifactId>
             <version>1.0.0</version>
         </dependency>
     </dependencies>

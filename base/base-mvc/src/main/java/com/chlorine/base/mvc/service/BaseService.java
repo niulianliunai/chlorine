@@ -34,11 +34,11 @@ public abstract class BaseService<Entity extends BaseEntity> {
                 if (optionalEntity.isPresent()) {
                     Entity target = optionalEntity.get();
                     // 使用乐观锁，假设Entity类有个version字段
-                    if (entity.getVersion() != null && !entity.getVersion().equals(target.getVersion())) {
-                        throw new OptimisticLockingFailureException("Entity was updated by another transaction");
-                    }
+//                    if (entity.getVersion() != null && !entity.getVersion().equals(target.getVersion())) {
+//                        throw new OptimisticLockingFailureException("Entity was updated by another transaction");
+//                    }
                     UpdateUtil.copyNullProperties(entity, target);
-                    target.setVersion(target.getVersion() + 1); // 增加版本号
+//                    target.setVersion(target.getVersion() + 1); // 增加版本号
                     return repository.save(target);
                 } else {
                     throw new EntityNotFoundException("Entity not found with id " + entity.getId());

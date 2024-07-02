@@ -24,7 +24,7 @@
         </dependency>
         <dependency>
             <groupId>com.chlorine</groupId>
-            <artifactId>base-auth</artifactId>
+            <artifactId>auth</artifactId>
             <version>1.0.0</version>
         </dependency>
         <dependency>
@@ -44,6 +44,13 @@
         </dependency>
 
     </dependencies>
+
+    <distributionManagement>
+        <repository>
+            <id>my-maven-repository</id>
+            <url>file:/Users/chenlong/.m2/repository/</url>
+        </repository>
+    </distributionManagement>
     <build>
         <finalName>mall</finalName>
         <plugins>
@@ -53,7 +60,7 @@
                 <version>3.0.0</version>
                 <executions>
                     <execution>
-                        <phase>install</phase> <!-- 选择合适的构建生命周期阶段 -->
+                      <phase>deploy</phase>
                         <goals>
                             <goal>run</goal>
                         </goals>

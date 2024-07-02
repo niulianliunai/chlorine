@@ -12,16 +12,16 @@ import javax.persistence.*;
 @Getter
 @Setter
 @Entity
-@Table(name = "role_permission")
+@Table(name = "system_user_role")
 @Where(clause = "deleted<>1")
-public class RolePermission extends RelationBaseEntity {
+public class UserRole extends RelationBaseEntity {
     @ManyToOne
-    @JoinColumn(name = "role_id")
-    @JsonIgnoreProperties({"rolePermissions"})
-    private Role role;
+    @JoinColumn(name = "user_id")
+    @JsonIgnoreProperties({"userRoles"})
+    private User user;
 
     @ManyToOne
-    @JoinColumn(name = "permission_id")
-    @JsonIgnoreProperties({"rolePermissions"})
-    private Permission permission;
+    @JoinColumn(name = "role_id")
+    @JsonIgnoreProperties({"userRoles"})
+    private Role role;
 }

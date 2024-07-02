@@ -12,6 +12,8 @@ import com.chlorine.base.auth.repository.UserRepository;
 import com.chlorine.base.auth.security.util.JwtTokenUtil;
 import com.chlorine.base.mvc.util.EntityManagerUtil;
 import com.querydsl.jpa.impl.JPAQueryFactory;
+import lombok.extern.log4j.Log4j;
+import lombok.extern.log4j.Log4j2;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -40,6 +42,7 @@ import java.util.*;
  * @date 2020/12/8
  */
 @Service
+@Log4j2
 public class UserService {
     private final static Logger LOGGER = LoggerFactory.getLogger(UserService.class);
     @Autowired
@@ -92,6 +95,7 @@ public class UserService {
             }
         };
         Optional<User> user = userRepository.findOne(specification);
+        log.info(user);
         return user.map(UserDTO::new).orElse(null);
     }
     public User getUserById(Long id) {
@@ -112,7 +116,8 @@ public class UserService {
         } catch (AuthenticationException e) {
             LOGGER.warn("登录异常：{}" + e.getMessage());
         }
-        userRedisService.setUser(getUserByUsername(username,false));
+        UserDTO user = getUserByUsername(username, false);
+        userRedisService.setUser(user);
         return token;
     }
 

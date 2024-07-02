@@ -21,7 +21,7 @@ import java.util.Set;
 @Getter
 @Setter
 @Entity
-@Table(name = "role")
+@Table(name = "system_role")
 @Where(clause = "deleted<>1")
 public class Role extends BaseEntity {
     private String name;

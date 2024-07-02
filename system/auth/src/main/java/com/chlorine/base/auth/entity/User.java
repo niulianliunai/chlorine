@@ -20,7 +20,7 @@ import java.util.Set;
 @Getter
 @Setter
 @Entity
-@Table(name = "user")
+@Table(name = "system_user")
 @Where(clause = "deleted<>1")
 public class User extends BaseEntity {
 

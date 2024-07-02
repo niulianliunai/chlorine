@@ -13,7 +13,7 @@ import java.math.BigDecimal;
 @Setter
 @ToString
 @Entity
-@Table(name = "package_source")
+@Table(name = "app_package_source")
 // @GenerateMVC
 public class PackageSource extends BaseEntity {
     private String name;

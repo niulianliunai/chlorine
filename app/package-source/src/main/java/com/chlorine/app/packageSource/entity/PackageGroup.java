@@ -15,7 +15,7 @@ import java.util.List;
 @Setter
 @ToString
 @Entity
-@Table(name = "package_group")
+@Table(name = "app_package_group")
 // @GenerateMVC
 public class PackageGroup extends BaseEntity {
     private String name;

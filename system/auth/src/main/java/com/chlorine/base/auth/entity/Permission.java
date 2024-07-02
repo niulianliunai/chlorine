@@ -23,7 +23,7 @@ import java.util.Set;
 @Getter
 @Setter
 @Entity
-@Table(name = "permission")
+@Table(name = "system_permission")
 @Where(clause = "deleted<>1")
 public class Permission extends BaseEntity {
     private String name;
