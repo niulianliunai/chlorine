@@ -1,0 +1,8 @@
+server:
+  port: 8080
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://mysql:3306/chlorine?serverTimezone=GMT%2b8
+    username: root
+    password: ENC(LboqLeYOgvLzF5MwcLCxsbYCOWY/+Tev)

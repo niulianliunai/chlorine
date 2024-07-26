@@ -1,0 +1,20 @@
+
+version: '3'
+
+services:
+  mall:
+    image: niulianliunai/mall
+    container_name: mall
+    volumes:
+      - ./logs:/logs
+    environment:
+      - TZ=Asia/Shanghai
+    ports:
+      - 8080:8080
+    restart: always
+    networks:
+      - mall_network
+networks:
+  mall_network:
+    external:
+      name: mall

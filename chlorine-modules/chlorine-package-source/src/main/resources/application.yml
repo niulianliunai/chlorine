@@ -1,0 +1,19 @@
+
+spring:
+  servlet:
+    multipart:
+      max-file-size: 10MB
+  profiles:
+    active: dev
+  jpa:
+    hibernate:
+      ddl-auto: update
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+    show-sql: true
+  main:
+    allow-bean-definition-overriding: true
+minio:
+  username: minio
+  password: password
+  url: http://chenlong.site:9000

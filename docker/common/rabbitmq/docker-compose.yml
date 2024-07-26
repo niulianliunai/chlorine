@@ -1,0 +1,20 @@
+version: '3'
+services:
+  rabbitmq:
+    image: rabbitmq:management
+    container_name: rabbitmq
+    volumes:
+      - ./data:/var/lib/rabbitmq #数据文件挂载
+    #  - ./log:/var/log/rabbitmq #日志文件挂载
+      - ./conf/rabbitmq.conf:/etc/rabbitmq/rabbitmq.conf
+    ports:
+      - 5672:5672
+      - 15672:15672
+    restart: always
+    networks:
+      - mall_network
+networks:
+    default:
+      external:
+        name: mall
+
