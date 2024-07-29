@@ -40,7 +40,7 @@ public class MinioUtil {
                             .method(Method.GET)
                             .bucket(bucketName)
                             .object(objectName)
-                            .expiry( 30, TimeUnit.SECONDS)
+                            .expiry(30, TimeUnit.SECONDS)
                             .build());
             return url;
         } catch (Exception e) {
@@ -55,13 +55,15 @@ public class MinioUtil {
      * @param bucketName 桶名称
      */
     public Boolean createBucket(String bucketName) throws Exception {
-        if (!StringUtils.hasLength(bucketName)) {
-            throw new RuntimeException("创建桶的时候，桶名不能为空！");
-        }
-        if (checkBucketExist(bucketName)) {
-            return true;
-        }
         try {
+
+            if (!StringUtils.hasLength(bucketName)) {
+                throw new RuntimeException("创建桶的时候，桶名不能为空！");
+            }
+
+            if (checkBucketExist(bucketName)) {
+                return true;
+            }
             minioClient.makeBucket(MakeBucketArgs.builder()
                     .bucket(bucketName)
                     .build());
@@ -83,7 +85,6 @@ public class MinioUtil {
         if (!StringUtils.hasLength(bucketName)) {
             throw new RuntimeException("检测桶的时候，桶名不能为空！");
         }
-
         return minioClient.bucketExists(BucketExistsArgs.builder().bucket(bucketName).build());
     }
 
@@ -231,7 +232,7 @@ public class MinioUtil {
     public String uploadFile(String bucketName, MultipartFile file, HttpServletRequest request) {
 
 //        User user = userService.getUserFromRequest(request);
-        String objectName = ""+ "/" + System.currentTimeMillis();
+        String objectName = "" + "/" + System.currentTimeMillis();
 
         try {
             createBucket(bucketName);
@@ -243,6 +244,7 @@ public class MinioUtil {
                     .build();
             ObjectWriteResponse response = minioClient.putObject(args);
             inputStream.close();
+
             return bucketName + "/" + objectName;
         } catch (Exception e) {
             log.info("单文件上传失败！", e);

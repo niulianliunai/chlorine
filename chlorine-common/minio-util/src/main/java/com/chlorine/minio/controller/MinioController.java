@@ -22,10 +22,14 @@ public class MinioController {
 //        minioUtil.getImage(objectName, bucketName, response);
 //    }
 
-    @GetMapping("/generatePresignedUrl")
-    public String generatePresignedUrl(@RequestParam("bucketName") String bucketName, @RequestParam("objectName") String objectName) {
+    @GetMapping("/generatePresignedUrl/{bucketName}/{objectName}")
+    public String generatePresignedUrl(@PathVariable("bucketName") String bucketName, @PathVariable("objectName") String objectName) {
         return minioUtil.generatePresignedUrl(bucketName, objectName);
     }
+//    @GetMapping("/generatePresignedUrl")
+//    public String generatePresignedUrl(@RequestParam("bucketName") String bucketName, @RequestParam("objectName") String objectName) {
+//        return minioUtil.generatePresignedUrl(bucketName, objectName);
+//    }
 
     @GetMapping("/proxy/image/{bucketName}/{objectPath}/{objectName}")
     public void getImage(@PathVariable String bucketName, @PathVariable String objectPath, @PathVariable String objectName, HttpServletResponse response) {
