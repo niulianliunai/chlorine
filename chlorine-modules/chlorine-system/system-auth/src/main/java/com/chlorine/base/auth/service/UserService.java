@@ -127,7 +127,7 @@ public class UserService extends BaseService<User> {
             SecurityContextHolder.getContext().setAuthentication(authenticationToken);
             token = JwtTokenUtil.generateToken(userDetails);
         } catch (AuthenticationException e) {
-            LOGGER.warn("登录异常：{}" + e.getMessage());
+            LOGGER.warn("登录异常：{}" , e.getMessage());
         }
         UserDTO user = getUserByUsername(username, false);
         userRedisService.setUser(user);

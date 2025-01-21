@@ -110,3 +110,4 @@ local.properties
 *.jar
 *.war
 *.ear
+/chlorine-common/file-util/src/main/resources/uploads/

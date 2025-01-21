@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>房贷计算器</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 50px;
+        }
+        .container {
+            max-width: 600px;
+            margin: auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        input[type="number"], select {
+            width: 100%;
+            padding: 8px;
+            box-sizing: border-box;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        .result {
+            margin-top: 20px;
+            font-size: 1.2em;
+        }
+        .schedule {
+            margin-top: 20px;
+        }
+        .schedule table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .schedule th, .schedule td {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+        .schedule th {
+            background-color: #f2f2f2;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h2>房贷计算器</h2>
+    <form id="mortgageForm">
+        <div class="form-group">
+            <label for="principal">贷款本金（元）:</label>
+            <input type="number" id="principal" name="principal" required>
+        </div>
+        <div class="form-group">
+            <label for="annualInterestRate">年利率（%）:</label>
+            <input type="number" id="annualInterestRate" name="annualInterestRate" step="0.01" required>
+        </div>
+        <div class="form-group">
+            <label for="loanTermYears">贷款期限（年）:</label>
+            <select id="loanTermYears" name="loanTermYears" required>
+                <option value="1">1年</option>
+                <option value="5">5年</option>
+                <option value="10">10年</option>
+                <option value="15">15年</option>
+                <option value="20">20年</option>
+                <option value="25">25年</option>
+                <option value="30">30年</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="repaymentType">还款方式:</label>
+            <select id="repaymentType" name="repaymentType" required>
+                <option value="equalPrincipal">等额本金</option>
+                <option value="equalInstallment">等额本息</option>
+            </select>
+        </div>
+        <button type="button" onclick="calculateMortgage()">计算</button>
+    </form>
+    <div class="result" id="monthlyPayment"></div>
+    <div class="schedule" id="repaymentSchedule"></div>
+</div>
+
+<script>
+    function calculateMortgage() {
+        const principal = document.getElementById('principal').value;
+        const annualInterestRate = document.getElementById('annualInterestRate').value;
+        const loanTermYears = document.getElementById('loanTermYears').value;
+        const repaymentType = document.getElementById('repaymentType').value;
+
+        fetch(`/calculate?principal=${principal}&annualInterestRate=${annualInterestRate}&loanTermYears=${loanTermYears}&repaymentType=${repaymentType}`)
+            .then(response => response.json())
+            .then(data => {
+                // 显示每月还款金额
+                const monthlyPayment = data[0].monthlyPayment;
+                document.getElementById('monthlyPayment').innerText = `每月还款金额: ${monthlyPayment.toFixed(2)} 元`;
+
+                // 生成还款计划表
+                let tableHtml = `
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>月份</th>
+                                <th>每月还款金额</th>
+                                <th>本金还款</th>
+                                <th>利息还款</th>
+                                <th>剩余本金</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                `;
+                data.forEach(payment => {
+                    tableHtml += `
+                        <tr>
+                            <td>${payment.month}</td>
+                            <td>${payment.monthlyPayment.toFixed(2)}</td>
+                            <td>${payment.principalPayment.toFixed(2)}</td>
+                            <td>${payment.interestPayment.toFixed(2)}</td>
+                            <td>${payment.remainingPrincipal.toFixed(2)}</td>
+                        </tr>
+                    `;
+                });
+                tableHtml += `
+                        </tbody>
+                    </table>
+                `;
+
+                document.getElementById('repaymentSchedule').innerHTML = tableHtml;
+            })
+            .catch(error => console.error('Error:', error));
+    }
+</script>
+</body>
+</html>

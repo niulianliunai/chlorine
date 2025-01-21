@@ -11,7 +11,7 @@
     </modules>
     <parent>
         <groupId>com.chlorine</groupId>
-        <artifactId>all</artifactId>
+        <artifactId>chlorine</artifactId>
         <version>1.0.0</version>
     </parent>
     <artifactId>chlorine-common</artifactId>

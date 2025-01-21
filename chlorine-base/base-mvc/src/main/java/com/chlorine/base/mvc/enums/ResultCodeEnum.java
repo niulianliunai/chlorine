@@ -6,7 +6,7 @@ package com.chlorine.base.mvc.enums;
 * @date 2020/12/8
 */
 public enum ResultCodeEnum {
-    SUCCESS(200, "操作成功"),
+    SUCCESS(0, "操作成功"),
     FAILED(500, "操作失败"),
     VALIDATE_FAILED(405, "参数校验失败"),
     UNAUTHORIZED(401, "暂未登录或token过期"),

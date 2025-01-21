@@ -7,13 +7,34 @@ import org.springframework.web.multipart.MultipartFile;
 
 import javax.servlet.ServletOutputStream;
 import javax.servlet.http.HttpServletResponse;
+import java.io.File;
 import java.io.IOException;
 import java.io.Writer;
 
 public class FileUtil {
 
     private static final ObjectMapper objectMapper = new ObjectMapper();
-
+    private static boolean deleteDirectory(File directory) {
+        if (!directory.exists()) {
+            return false;
+        }
+        // 清空目录
+        File[] files = directory.listFiles();
+        if (files != null) {
+            for (File file : files) {
+                if (file.isDirectory()) {
+                    deleteDirectory(file);
+                } else {
+                    if (!file.delete()) {
+                        System.err.println("Failed to delete file: " + file.getAbsolutePath());
+                        return false;
+                    }
+                }
+            }
+        }
+        // 删除目录本身
+        return directory.delete();
+    }
 //    public static void exportFile(JSONObject data, String name, HttpServletResponse response) {
 //        response.setContentType(MediaType.APPLICATION_JSON_VALUE+";charset=utf-8");
 //

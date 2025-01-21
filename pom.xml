@@ -15,7 +15,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.chlorine</groupId>
-    <artifactId>all</artifactId>
+    <artifactId>chlorine</artifactId>
     <version>1.0.0</version>
     <name>chlorine-all</name>
 

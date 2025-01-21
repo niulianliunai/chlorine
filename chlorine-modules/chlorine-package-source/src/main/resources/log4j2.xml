@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+    <Properties>
+        <Property name="log.path">logs</Property>
+        <Property name="log.pattern">%d{HH:mm:ss.SSS} [%t] %-5level %logger{20} - [%M,%L] - %msg%n</Property>
+    </Properties>
+
+    <Appenders>
+        <Console name="console" target="SYSTEM_OUT">
+            <PatternLayout pattern="${log.pattern}"/>
+        </Console>
+
+        <RollingFile name="file_info" fileName="${log.path}/info.log"
+                     filePattern="${log.path}/info.%d{yyyy-MM-dd}.log">
+            <PatternLayout pattern="${log.pattern}"/>
+            <Policies>
+                <TimeBasedTriggeringPolicy/>
+            </Policies>
+            <DefaultRolloverStrategy max="60"/>
+            <Filters>
+                <ThresholdFilter level="INFO" onMatch="ACCEPT" onMismatch="DENY"/>
+            </Filters>
+        </RollingFile>
+
+        <RollingFile name="file_error" fileName="${log.path}/error.log"
+                     filePattern="${log.path}/error.%d{yyyy-MM-dd}.log">
+            <PatternLayout pattern="${log.pattern}"/>
+            <Policies>
+                <TimeBasedTriggeringPolicy/>
+            </Policies>
+            <DefaultRolloverStrategy max="60"/>
+            <Filters>
+                <ThresholdFilter level="ERROR" onMatch="ACCEPT" onMismatch="DENY"/>
+            </Filters>
+        </RollingFile>
+    </Appenders>
+
+    <Loggers>
+        <Logger name="com.cl.mall" level="info" additivity="false">
+            <AppenderRef ref="file_info"/>
+            <AppenderRef ref="file_error"/>
+        </Logger>
+
+        <Root level="info">
+            <AppenderRef ref="console"/>
+        </Root>
+    </Loggers>
+</Configuration>
