@@ -52,12 +52,12 @@ public class FileUtil {
 //        }
 //    }
 //
-//    public static String readFile(MultipartFile multipartFile) {
-//        try {
-//            byte[] bytes = multipartFile.getBytes();
-//            return new String(bytes);
-//        } catch (IOException e) {
-//            throw new RuntimeException(e);
-//        }
-//    }
+    public static String readFile(MultipartFile multipartFile) {
+        try {
+            byte[] bytes = multipartFile.getBytes();
+            return new String(bytes);
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+    }
 }

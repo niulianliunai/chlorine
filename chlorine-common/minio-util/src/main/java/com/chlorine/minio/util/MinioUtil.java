@@ -228,7 +228,29 @@ public class MinioUtil {
             return false;
         }
     }
+    public String uploadFile(String bucketName, MultipartFile file) {
 
+//        User user = userService.getUserFromRequest(request);
+        String objectName = "" + "/" + System.currentTimeMillis();
+
+        try {
+            createBucket(bucketName);
+            InputStream inputStream = file.getInputStream();
+            PutObjectArgs args = PutObjectArgs.builder()
+                    .bucket(bucketName).object(objectName)
+                    .stream(inputStream, file.getSize(), -1)
+                    .contentType(file.getContentType())
+                    .build();
+            ObjectWriteResponse response = minioClient.putObject(args);
+            inputStream.close();
+
+            return bucketName + "/" + objectName;
+        } catch (Exception e) {
+            log.info("单文件上传失败！", e);
+            return null;
+
+        }
+    }
     public String uploadFile(String bucketName, MultipartFile file, HttpServletRequest request) {
 
 //        User user = userService.getUserFromRequest(request);

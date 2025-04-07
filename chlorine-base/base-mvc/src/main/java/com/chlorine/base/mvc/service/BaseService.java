@@ -56,6 +56,15 @@ public abstract class  BaseService<Entity extends BaseEntity> {
             return criteriaQuery.where(predicateList.toArray(new Predicate[0])).getRestriction();
         });
     }
+    public List<Entity> findByFields(String[] fields, String[] values) {
+        return repository.findAll((Specification<Entity>) (root, criteriaQuery, criteriaBuilder) -> {
+            List<Predicate> predicateList = new ArrayList<>();
+            for (int i = 0; i < fields.length; i++) {
+                predicateList.add(criteriaBuilder.equal(root.get(fields[i]), values[i]));
+            }
+            return criteriaQuery.where(predicateList.toArray(new Predicate[0])).getRestriction();
+        });
+    }
 
     public List<Entity> findAll(Specification<Entity> specification) {
         return repository.findAll(specification);

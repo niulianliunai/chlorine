@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import java.util.List;
 
 public class BaseController<Entity extends BaseEntity> {
-    private final BaseService<Entity> service;
+    protected final BaseService<Entity> service;
 
     public BaseController(BaseService<Entity> service) {
         this.service = service;

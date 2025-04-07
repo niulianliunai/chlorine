@@ -10,6 +10,7 @@
 
     <modules>
         <module>chlorine-system</module>
+        <module>chlorine-spider</module>
         <module>chlorine-package-source</module>
     </modules>
 

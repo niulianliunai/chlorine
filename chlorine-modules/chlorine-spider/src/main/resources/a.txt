@@ -1,0 +1,935 @@
+<div id="orderstep_addgoods" title="申报商品">
+                                        <div class="lw-wrapinfo">
+                        <strong style="color:#333">包裹信息</strong>
+                        <span>转运单号: 111224-3143</span>
+                        <span>包裹来源: Paypay</span>
+                        <span>购物单消费总额: </span>
+                                                <span>电商快递单号: z409164210</span>
+                                                <span class="jsWeight">重量: 1055g</span>
+                        <span>标记: </span>
+                    </div>
+                    <div class="err_" style="background-color: #f8afbc; border: 1px solid #d36679; padding-left: 20px; color: #bd5264; width: 1138px;height: 20px;display: none;">
+                        <span class="&quot;+temp+&quot;">商品总重量不能大于包裹重量</span>
+                    </div>
+                    <div class="wrapinfo-list">
+                        <div class="lw-buyoff jsGoodsModeEdit">
+                            <div class="table table-thead">
+                                <ul class="table-tr">
+                                    <li class="table-td table-td-w122" style="width: 9%">中文品牌名<span style="color: red;font-size: 20px">*</span></li>
+                                    <li class="table-td table-td-w122" style="width: 9%">英/日文品牌名<span style="color: red;font-size: 20px">*</span></li>
+                                    <li class="table-td table-td-w122" style="width: 9%">商品中文名称<span style="color: red;font-size: 20px">*</span></li>
+                                    <li class="table-td table-td-w122" style="line-height: 25px;width: 9%"><div style="height: 20px">商品日文名称<span style="color: red;font-size: 20px">*</span></div><div style="color: red;font-size: 10px;height: 20px">（请用日文填写）</div></li>
+                                    <li class="table-td table-td-w122" style="line-height: 15px;width: 9%">
+                                        <div style="height: 20px">商品规格<span style="color: red;font-size: 20px">*</span></div><div style="color: red;font-size: 10px;height: 20px">（比如颜色，型号，尺码，净含量等）</div>
+                                        <!--                                                <em style="top: 0px; right: 65%" class = "ht-status2"></em>-->
+                                    </li>
+                                    <li class="table-td table-td-w122" style="width: 9%">单价(日元)<span style="color: red;font-size: 20px">*</span></li>
+                                    <li class="table-td table-td-w122" style="width: 9%">数量（个）<span style="color: red;font-size: 20px">*</span></li>
+                                    <li class="table-td table-td-w122" style="line-height: 20px;width: 9%"><div style="height: 20px">商品条码</div><div style="font-size: 10px;height: 20px">（若无条码信息，可不填）</div></li>
+                                    <li class="table-td table-td-w122" style="line-height: 20px;width: 9%"><div style="height: 20px">购物链接<span style="color: red;font-size: 20px">*</span></div><div style="color: red;font-size: 10px;height: 20px">（若无链接，须上传截图）</div></li>
+                                    <li class="table-td table-td-w122" style="line-height: 15px;width: 9%;position: relative">
+                                        <img class="comment_pics" onclick="showImg1(this)" style="max-width: 60px;max-height: 50px;margin-left: 20px;position: absolute;top:0;right:20%" border="0" src="/images/show_img.png">
+                                        <div style="height: 20px">购物截图</div><div style="color: red;font-size: 10px;height: 20px">（乐淘一番订单，只须上传乐淘一番购物平台订单截图）</div>
+                                    </li>
+                                    <li class="table-td table-td-w82" style="width: 9%"> 操作</li>
+                                </ul>
+                            </div>
+                            <div class="table table-tbody jsAddGoods jsAddGoodsFor10393216">
+                            <div> <ul class="table-tr">             <li class="table-td table-td-w122" style="width: 9%"> <input type="text" style="width:95%;margin-left:2px" name="goods_type_cn_10393216[]" value="" class="buyoff-ipt" required="" tabindex="1">             </li>             <li class="table-td table-td-w122" style="width: 9%"> <input type="text" style="width:95%;margin-left:2px" name="goods_type_en_10393216[]" value="" class="buyoff-ipt" required="" tabindex="2">             </li>             <li class="table-td table-td-w122" style="width: 9%"> <input type="text" placeholder="请勿填写特殊符号" style="width:95%;margin-left:2px" name="goods_text_cn_10393216[]" value="天使蓝色T恤销售" class="buyoff-ipt" required="" tabindex="3">             </li>             <li class="table-td table-td-w122" style="width: 9%"> <input type="text" style="width:95%;margin-left:2px" placeholder="请勿填写特殊符号" name="goods_text_jp_10393216[]" value="エンジェルブルー　Tシャツセット売り" class="buyoff-ipt" required="" tabindex="4">             </li>             <li class="table-td table-td-w122" style="width: 9%"> <input type="text" style="width:95%;margin-left:2px" name="goods_text_detail_10393216[]" value="" class="buyoff-ipt" required="" tabindex="5">             </li>             <li class="table-td table-td-w122" style="width: 9%"> <input type="text" style="width:90%;margin-left:2px" name="goods_price_10393216[]" value="5400" class="buyoff-ipt w102-buyoff hintPopipt" tabindex="6"> </li>             <li class="table-td table-td-w122" style="width: 9%"> <input type="number" style="width:90%;margin-left:2px" name="goods_quantity_10393216[]" min="1" value="1" class="buyoff-ipt w60-buyoff hintPopipt" tabindex="7"> </li>             <li class="table-td table-td-w122" style="width: 9%"> <input type="text" placeholder="请勿填写特殊符号" style="width:95%;;margin-left:2px" name="goods_barcode_10393216[]" value="" class="buyoff-ipt" onblur="check_text(this)" tabindex="8">             </li>             <li class="table-td table-td-w122" style="width: 9%"> <input type="text" style="width:95%;margin-left:12px;" name="goods_link_10393216[]" min="1" value="https://mall.leyifan.com/subPackages/pagesOther/transaction_snapshot/index?product_id=23449576&amp;pwd=JU5aE4ccgOmo35v1Q3VVbZI7AkWClPF5r9sAKeg02Pw%3D" class="buyoff-ipt" readonly="readonly" tabindex="9"> </li>             <li class="table-td table-td-w122" style="width: 9%"> <div class="div_btn" style="position: relative;">上传<label><input class="img_up" id="img_up" ticketid="10393216_0" type="file" style="position: absolute; top: 0; left: 0; opacity: 0; cursor: pointer; height: 40px; width: 100%;" name="file" onchange="uploadImg(this)" accept="image/*" tabindex="10"></label></div>            <div style="float: right;width: 60px;margin-top: -40px;"><img class="comment_pics" id="show_10393216_0" onclick="showImg(this)" style="max-width: 60px;max-height: 50px;margin-left: 20px;" border="0" src=""></div><input id="10393216_0" name="goods_img_10393216[]" style="display: none" value="" tabindex="11"> </li>             <li class="table-td table-td-w122" style="width: 9%"><a href="javascript:;" style="margin-left:40px;color: red" class="butDet-tr">删除</a></li>             </ul>             <div class="table-error"> </div> </div></div>
+                            <div class="lw-buyoff-h40">
+                                <a href="javascript:;" data-ticket-id="10393216" class="butAddoff">添加新商品</a>
+                            </div>
+                        </div>
+                        <div class="bg">
+                            <img class="bgImg" style="max-width: 100%; max-height: 100%; position: fixed;" src="">
+                        </div>
+                        <div class="lw-buyoff lw-buyoff-02 jsGoodsModeShow" style="display:none">
+                            <table class="addgoods" align="center" cellpadding="0" cellspacing="0">
+                                <thead>
+                                <tr>
+                                    <td style="width: 11%">中文品牌名</td>
+                                    <td style="width: 11%">英/日文品牌名</td>
+                                    <td style="width: 11%">商品中文名称</td>
+                                    <td style="width: 11%">商品日文名称</td>
+                                    <td style="width: 11%">商品规格</td>
+                                    <td style="width: 11%">单价(日元)</td>
+                                    <td style="width: 11%">数量（个）</td>
+                                    <td style="width: 11%">商品条码</td>
+                                    <td style="overflow:hidden;white-space:nowrap;text-overflow: ellipsis; width: 11%">购物链接</td>
+                                    <td style="width: 11%">购物截图</td>
+                                </tr>
+                                </thead>
+                                <tbody class="jsAddGoods jsAddGoodsFor10393216">
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                                        <div class="lw-wrapinfo">
+                        <strong style="color:#333">包裹信息</strong>
+                        <span>转运单号: 120107-3829</span>
+                        <span>包裹来源: Mercari</span>
+                        <span>购物单消费总额: </span>
+                                                <span>电商快递单号: m94289248385</span>
+                                                <span class="jsWeight">重量: 35g</span>
+                        <span>标记: </span>
+                    </div>
+                    <div class="err_" style="background-color: #f8afbc; border: 1px solid #d36679; padding-left: 20px; color: #bd5264; width: 1138px;height: 20px;display: none;">
+                        <span class="&quot;+temp+&quot;">商品总重量不能大于包裹重量</span>
+                    </div>
+                    <div class="wrapinfo-list">
+                        <div class="lw-buyoff jsGoodsModeEdit">
+                            <div class="table table-thead">
+                                <ul class="table-tr">
+                                    <li class="table-td table-td-w122" style="width: 9%">中文品牌名<span style="color: red;font-size: 20px">*</span></li>
+                                    <li class="table-td table-td-w122" style="width: 9%">英/日文品牌名<span style="color: red;font-size: 20px">*</span></li>
+                                    <li class="table-td table-td-w122" style="width: 9%">商品中文名称<span style="color: red;font-size: 20px">*</span></li>
+                                    <li class="table-td table-td-w122" style="line-height: 25px;width: 9%"><div style="height: 20px">商品日文名称<span style="color: red;font-size: 20px">*</span></div><div style="color: red;font-size: 10px;height: 20px">（请用日文填写）</div></li>
+                                    <li class="table-td table-td-w122" style="line-height: 15px;width: 9%">
+                                        <div style="height: 20px">商品规格<span style="color: red;font-size: 20px">*</span></div><div style="color: red;font-size: 10px;height: 20px">（比如颜色，型号，尺码，净含量等）</div>
+                                        <!--                                                <em style="top: 0px; right: 65%" class = "ht-status2"></em>-->
+                                    </li>
+                                    <li class="table-td table-td-w122" style="width: 9%">单价(日元)<span style="color: red;font-size: 20px">*</span></li>
+                                    <li class="table-td table-td-w122" style="width: 9%">数量（个）<span style="color: red;font-size: 20px">*</span></li>
+                                    <li class="table-td table-td-w122" style="line-height: 20px;width: 9%"><div style="height: 20px">商品条码</div><div style="font-size: 10px;height: 20px">（若无条码信息，可不填）</div></li>
+                                    <li class="table-td table-td-w122" style="line-height: 20px;width: 9%"><div style="height: 20px">购物链接<span style="color: red;font-size: 20px">*</span></div><div style="color: red;font-size: 10px;height: 20px">（若无链接，须上传截图）</div></li>
+                                    <li class="table-td table-td-w122" style="line-height: 15px;width: 9%;position: relative">
+                                        <img class="comment_pics" onclick="showImg1(this)" style="max-width: 60px;max-height: 50px;margin-left: 20px;position: absolute;top:0;right:20%" border="0" src="/images/show_img.png">
+                                        <div style="height: 20px">购物截图</div><div style="color: red;font-size: 10px;height: 20px">（乐淘一番订单，只须上传乐淘一番购物平台订单截图）</div>
+                                    </li>
+                                    <li class="table-td table-td-w82" style="width: 9%"> 操作</li>
+                                </ul>
+                            </div>
+                            <div class="table table-tbody jsAddGoods jsAddGoodsFor10493913">
+                            <div> <ul class="table-tr">             <li class="table-td table-td-w122" style="width: 9%"> <input type="text" style="width:95%;margin-left:2px" name="goods_type_cn_10493913[]" value="" class="buyoff-ipt" required="" tabindex="12">             </li>             <li class="table-td table-td-w122" style="width: 9%"> <input type="text" style="width:95%;margin-left:2px" name="goods_type_en_10493913[]" value="" class="buyoff-ipt" required="" tabindex="13">             </li>             <li class="table-td table-td-w122" style="width: 9%"> <input type="text" placeholder="请勿填写特殊符号" style="width:95%;margin-left:2px" name="goods_text_cn_10493913[]" value="[所有类型] Yaokin umaibo Miniature Charm Collection" class="buyoff-ipt" required="" tabindex="14">             </li>             <li class="table-td table-td-w122" style="width: 9%"> <input type="text" style="width:95%;margin-left:2px" placeholder="请勿填写特殊符号" name="goods_text_jp_10493913[]" value="【全種】やおきん うまい棒　ミニチュアチャームコレクション" class="buyoff-ipt" required="" tabindex="15">             </li>             <li class="table-td table-td-w122" style="width: 9%"> <input type="text" style="width:95%;margin-left:2px" name="goods_text_detail_10493913[]" value="" class="buyoff-ipt" required="" tabindex="16">             </li>             <li class="table-td table-td-w122" style="width: 9%"> <input type="text" style="width:90%;margin-left:2px" name="goods_price_10493913[]" value="1799" class="buyoff-ipt w102-buyoff hintPopipt" tabindex="17"> </li>             <li class="table-td table-td-w122" style="width: 9%"> <input type="number" style="width:90%;margin-left:2px" name="goods_quantity_10493913[]" min="1" value="1" class="buyoff-ipt w60-buyoff hintPopipt" tabindex="18"> </li>             <li class="table-td table-td-w122" style="width: 9%"> <input type="text" placeholder="请勿填写特殊符号" style="width:95%;;margin-left:2px" name="goods_barcode_10493913[]" value="" class="buyoff-ipt" onblur="check_text(this)" tabindex="19">             </li>             <li class="table-td table-td-w122" style="width: 9%"> <input type="text" style="width:95%;margin-left:12px;" name="goods_link_10493913[]" min="1" value="https://mall.leyifan.com/subPackages/pagesOther/transaction_snapshot/index?product_id=23804908&amp;pwd=2LPf5jAKkooEuawnDBnlIzKH53%2FTeWqwnbqREs2GzLg%3D" class="buyoff-ipt" readonly="readonly" tabindex="20"> </li>             <li class="table-td table-td-w122" style="width: 9%"> <div class="div_btn" style="position: relative;">上传<label><input class="img_up" id="img_up" ticketid="10493913_0" type="file" style="position: absolute; top: 0; left: 0; opacity: 0; cursor: pointer; height: 40px; width: 100%;" name="file" onchange="uploadImg(this)" accept="image/*" tabindex="21"></label></div>            <div style="float: right;width: 60px;margin-top: -40px;"><img class="comment_pics" id="show_10493913_0" onclick="showImg(this)" style="max-width: 60px;max-height: 50px;margin-left: 20px;" border="0" src=""></div><input id="10493913_0" name="goods_img_10493913[]" style="display: none" value="" tabindex="22"> </li>             <li class="table-td table-td-w122" style="width: 9%"><a href="javascript:;" style="margin-left:40px;color: red" class="butDet-tr">删除</a></li>             </ul>             <div class="table-error"> </div> </div></div>
+                            <div class="lw-buyoff-h40">
+                                <a href="javascript:;" data-ticket-id="10493913" class="butAddoff">添加新商品</a>
+                            </div>
+                        </div>
+                        <div class="bg">
+                            <img class="bgImg" style="max-width: 100%; max-height: 100%; position: fixed;" src="">
+                        </div>
+                        <div class="lw-buyoff lw-buyoff-02 jsGoodsModeShow" style="display:none">
+                            <table class="addgoods" align="center" cellpadding="0" cellspacing="0">
+                                <thead>
+                                <tr>
+                                    <td style="width: 11%">中文品牌名</td>
+                                    <td style="width: 11%">英/日文品牌名</td>
+                                    <td style="width: 11%">商品中文名称</td>
+                                    <td style="width: 11%">商品日文名称</td>
+                                    <td style="width: 11%">商品规格</td>
+                                    <td style="width: 11%">单价(日元)</td>
+                                    <td style="width: 11%">数量（个）</td>
+                                    <td style="width: 11%">商品条码</td>
+                                    <td style="overflow:hidden;white-space:nowrap;text-overflow: ellipsis; width: 11%">购物链接</td>
+                                    <td style="width: 11%">购物截图</td>
+                                </tr>
+                                </thead>
+                                <tbody class="jsAddGoods jsAddGoodsFor10493913">
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                                        <div class="lw-wrapinfo">
+                        <strong style="color:#333">包裹信息</strong>
+                        <span>转运单号: 120126-3238</span>
+                        <span>包裹来源: Mercari</span>
+                        <span>购物单消费总额: </span>
+                                                <span>电商快递单号: m63959402023</span>
+                                                <span class="jsWeight">重量: 1460g</span>
+                        <span>标记: </span>
+                    </div>
+                    <div class="err_" style="background-color: #f8afbc; border: 1px solid #d36679; padding-left: 20px; color: #bd5264; width: 1138px;height: 20px;display: none;">
+                        <span class="&quot;+temp+&quot;">商品总重量不能大于包裹重量</span>
+                    </div>
+                    <div class="wrapinfo-list">
+                        <div class="lw-buyoff jsGoodsModeEdit">
+                            <div class="table table-thead">
+                                <ul class="table-tr">
+                                    <li class="table-td table-td-w122" style="width: 9%">中文品牌名<span style="color: red;font-size: 20px">*</span></li>
+                                    <li class="table-td table-td-w122" style="width: 9%">英/日文品牌名<span style="color: red;font-size: 20px">*</span></li>
+                                    <li class="table-td table-td-w122" style="width: 9%">商品中文名称<span style="color: red;font-size: 20px">*</span></li>
+                                    <li class="table-td table-td-w122" style="line-height: 25px;width: 9%"><div style="height: 20px">商品日文名称<span style="color: red;font-size: 20px">*</span></div><div style="color: red;font-size: 10px;height: 20px">（请用日文填写）</div></li>
+                                    <li class="table-td table-td-w122" style="line-height: 15px;width: 9%">
+                                        <div style="height: 20px">商品规格<span style="color: red;font-size: 20px">*</span></div><div style="color: red;font-size: 10px;height: 20px">（比如颜色，型号，尺码，净含量等）</div>
+                                        <!--                                                <em style="top: 0px; right: 65%" class = "ht-status2"></em>-->
+                                    </li>
+                                    <li class="table-td table-td-w122" style="width: 9%">单价(日元)<span style="color: red;font-size: 20px">*</span></li>
+                                    <li class="table-td table-td-w122" style="width: 9%">数量（个）<span style="color: red;font-size: 20px">*</span></li>
+                                    <li class="table-td table-td-w122" style="line-height: 20px;width: 9%"><div style="height: 20px">商品条码</div><div style="font-size: 10px;height: 20px">（若无条码信息，可不填）</div></li>
+                                    <li class="table-td table-td-w122" style="line-height: 20px;width: 9%"><div style="height: 20px">购物链接<span style="color: red;font-size: 20px">*</span></div><div style="color: red;font-size: 10px;height: 20px">（若无链接，须上传截图）</div></li>
+                                    <li class="table-td table-td-w122" style="line-height: 15px;width: 9%;position: relative">
+                                        <img class="comment_pics" onclick="showImg1(this)" style="max-width: 60px;max-height: 50px;margin-left: 20px;position: absolute;top:0;right:20%" border="0" src="/images/show_img.png">
+                                        <div style="height: 20px">购物截图</div><div style="color: red;font-size: 10px;height: 20px">（乐淘一番订单，只须上传乐淘一番购物平台订单截图）</div>
+                                    </li>
+                                    <li class="table-td table-td-w82" style="width: 9%"> 操作</li>
+                                </ul>
+                            </div>
+                            <div class="table table-tbody jsAddGoods jsAddGoodsFor10629151">
+                            <div> <ul class="table-tr">             <li class="table-td table-td-w122" style="width: 9%"> <input type="text" style="width:95%;margin-left:2px" name="goods_type_cn_10629151[]" value="" class="buyoff-ipt" required="" tabindex="23">             </li>             <li class="table-td table-td-w122" style="width: 9%"> <input type="text" style="width:95%;margin-left:2px" name="goods_type_en_10629151[]" value="" class="buyoff-ipt" required="" tabindex="24">             </li>             <li class="table-td table-td-w122" style="width: 9%"> <input type="text" placeholder="请勿填写特殊符号" style="width:95%;margin-left:2px" name="goods_text_cn_10629151[]" value="Kowa Kero-chan Koro-chan对柜台时钟" class="buyoff-ipt" required="" tabindex="25">             </li>             <li class="table-td table-td-w122" style="width: 9%"> <input type="text" style="width:95%;margin-left:2px" placeholder="请勿填写特殊符号" name="goods_text_jp_10629151[]" value="コーワ　ケロちゃんコロちゃんペアカウンター時計" class="buyoff-ipt" required="" tabindex="26">             </li>             <li class="table-td table-td-w122" style="width: 9%"> <input type="text" style="width:95%;margin-left:2px" name="goods_text_detail_10629151[]" value="" class="buyoff-ipt" required="" tabindex="27">             </li>             <li class="table-td table-td-w122" style="width: 9%"> <input type="text" style="width:90%;margin-left:2px" name="goods_price_10629151[]" value="9999" class="buyoff-ipt w102-buyoff hintPopipt" tabindex="28"> </li>             <li class="table-td table-td-w122" style="width: 9%"> <input type="number" style="width:90%;margin-left:2px" name="goods_quantity_10629151[]" min="1" value="1" class="buyoff-ipt w60-buyoff hintPopipt" tabindex="29"> </li>             <li class="table-td table-td-w122" style="width: 9%"> <input type="text" placeholder="请勿填写特殊符号" style="width:95%;;margin-left:2px" name="goods_barcode_10629151[]" value="" class="buyoff-ipt" onblur="check_text(this)" tabindex="30">             </li>             <li class="table-td table-td-w122" style="width: 9%"> <input type="text" style="width:95%;margin-left:12px;" name="goods_link_10629151[]" min="1" value="https://mall.leyifan.com/subPackages/pagesOther/transaction_snapshot/index?product_id=24325344&amp;pwd=glT4TPFIXzBEkc5FmqZWePd2LgD9%2FaUkapFHODwff0g%3D" class="buyoff-ipt" readonly="readonly" tabindex="31"> </li>             <li class="table-td table-td-w122" style="width: 9%"> <div class="div_btn" style="position: relative;">上传<label><input class="img_up" id="img_up" ticketid="10629151_0" type="file" style="position: absolute; top: 0; left: 0; opacity: 0; cursor: pointer; height: 40px; width: 100%;" name="file" onchange="uploadImg(this)" accept="image/*" tabindex="32"></label></div>            <div style="float: right;width: 60px;margin-top: -40px;"><img class="comment_pics" id="show_10629151_0" onclick="showImg(this)" style="max-width: 60px;max-height: 50px;margin-left: 20px;" border="0" src=""></div><input id="10629151_0" name="goods_img_10629151[]" style="display: none" value="" tabindex="33"> </li>             <li class="table-td table-td-w122" style="width: 9%"><a href="javascript:;" style="margin-left:40px;color: red" class="butDet-tr">删除</a></li>             </ul>             <div class="table-error"> </div> </div></div>
+                            <div class="lw-buyoff-h40">
+                                <a href="javascript:;" data-ticket-id="10629151" class="butAddoff">添加新商品</a>
+                            </div>
+                        </div>
+                        <div class="bg">
+                            <img class="bgImg" style="max-width: 100%; max-height: 100%; position: fixed;" src="">
+                        </div>
+                        <div class="lw-buyoff lw-buyoff-02 jsGoodsModeShow" style="display:none">
+                            <table class="addgoods" align="center" cellpadding="0" cellspacing="0">
+                                <thead>
+                                <tr>
+                                    <td style="width: 11%">中文品牌名</td>
+                                    <td style="width: 11%">英/日文品牌名</td>
+                                    <td style="width: 11%">商品中文名称</td>
+                                    <td style="width: 11%">商品日文名称</td>
+                                    <td style="width: 11%">商品规格</td>
+                                    <td style="width: 11%">单价(日元)</td>
+                                    <td style="width: 11%">数量（个）</td>
+                                    <td style="width: 11%">商品条码</td>
+                                    <td style="overflow:hidden;white-space:nowrap;text-overflow: ellipsis; width: 11%">购物链接</td>
+                                    <td style="width: 11%">购物截图</td>
+                                </tr>
+                                </thead>
+                                <tbody class="jsAddGoods jsAddGoodsFor10629151">
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                                        <div class="lw-wrapinfo">
+                        <strong style="color:#333">包裹信息</strong>
+                        <span>转运单号: 120203-2061</span>
+                        <span>包裹来源: MERCARI</span>
+                        <span>购物单消费总额: </span>
+                                                <span>电商快递单号: m78110308145</span>
+                                                <span class="jsWeight">重量: 32g</span>
+                        <span>标记: </span>
+                    </div>
+                    <div class="err_" style="background-color: #f8afbc; border: 1px solid #d36679; padding-left: 20px; color: #bd5264; width: 1138px;height: 20px;display: none;">
+                        <span class="&quot;+temp+&quot;">商品总重量不能大于包裹重量</span>
+                    </div>
+                    <div class="wrapinfo-list">
+                        <div class="lw-buyoff jsGoodsModeEdit">
+                            <div class="table table-thead">
+                                <ul class="table-tr">
+                                    <li class="table-td table-td-w122" style="width: 9%">中文品牌名<span style="color: red;font-size: 20px">*</span></li>
+                                    <li class="table-td table-td-w122" style="width: 9%">英/日文品牌名<span style="color: red;font-size: 20px">*</span></li>
+                                    <li class="table-td table-td-w122" style="width: 9%">商品中文名称<span style="color: red;font-size: 20px">*</span></li>
+                                    <li class="table-td table-td-w122" style="line-height: 25px;width: 9%"><div style="height: 20px">商品日文名称<span style="color: red;font-size: 20px">*</span></div><div style="color: red;font-size: 10px;height: 20px">（请用日文填写）</div></li>
+                                    <li class="table-td table-td-w122" style="line-height: 15px;width: 9%">
+                                        <div style="height: 20px">商品规格<span style="color: red;font-size: 20px">*</span></div><div style="color: red;font-size: 10px;height: 20px">（比如颜色，型号，尺码，净含量等）</div>
+                                        <!--                                                <em style="top: 0px; right: 65%" class = "ht-status2"></em>-->
+                                    </li>
+                                    <li class="table-td table-td-w122" style="width: 9%">单价(日元)<span style="color: red;font-size: 20px">*</span></li>
+                                    <li class="table-td table-td-w122" style="width: 9%">数量（个）<span style="color: red;font-size: 20px">*</span></li>
+                                    <li class="table-td table-td-w122" style="line-height: 20px;width: 9%"><div style="height: 20px">商品条码</div><div style="font-size: 10px;height: 20px">（若无条码信息，可不填）</div></li>
+                                    <li class="table-td table-td-w122" style="line-height: 20px;width: 9%"><div style="height: 20px">购物链接<span style="color: red;font-size: 20px">*</span></div><div style="color: red;font-size: 10px;height: 20px">（若无链接，须上传截图）</div></li>
+                                    <li class="table-td table-td-w122" style="line-height: 15px;width: 9%;position: relative">
+                                        <img class="comment_pics" onclick="showImg1(this)" style="max-width: 60px;max-height: 50px;margin-left: 20px;position: absolute;top:0;right:20%" border="0" src="/images/show_img.png">
+                                        <div style="height: 20px">购物截图</div><div style="color: red;font-size: 10px;height: 20px">（乐淘一番订单，只须上传乐淘一番购物平台订单截图）</div>
+                                    </li>
+                                    <li class="table-td table-td-w82" style="width: 9%"> 操作</li>
+                                </ul>
+                            </div>
+                            <div class="table table-tbody jsAddGoods jsAddGoodsFor10683774">
+                            <div> <ul class="table-tr">             <li class="table-td table-td-w122" style="width: 9%"> <input type="text" style="width:95%;margin-left:2px" name="goods_type_cn_10683774[]" value="" class="buyoff-ipt" required="" tabindex="34">             </li>             <li class="table-td table-td-w122" style="width: 9%"> <input type="text" style="width:95%;margin-left:2px" name="goods_type_en_10683774[]" value="" class="buyoff-ipt" required="" tabindex="35">             </li>             <li class="table-td table-td-w122" style="width: 9%"> <input type="text" placeholder="请勿填写特殊符号" style="width:95%;margin-left:2px" name="goods_text_cn_10683774[]" value="Narumiya Angel Blue Pomponette Daisy Lovers Landmark Charm Set" class="buyoff-ipt" required="" tabindex="36">             </li>             <li class="table-td table-td-w122" style="width: 9%"> <input type="text" style="width:95%;margin-left:2px" placeholder="请勿填写特殊符号" name="goods_text_jp_10683774[]" value="ナルミヤ エンジェルブルー ポンポネット デイジーラバーズ 目印チャームセット" class="buyoff-ipt" required="" tabindex="37">             </li>             <li class="table-td table-td-w122" style="width: 9%"> <input type="text" style="width:95%;margin-left:2px" name="goods_text_detail_10683774[]" value="" class="buyoff-ipt" required="" tabindex="38">             </li>             <li class="table-td table-td-w122" style="width: 9%"> <input type="text" style="width:90%;margin-left:2px" name="goods_price_10683774[]" value="1000" class="buyoff-ipt w102-buyoff hintPopipt" tabindex="39"> </li>             <li class="table-td table-td-w122" style="width: 9%"> <input type="number" style="width:90%;margin-left:2px" name="goods_quantity_10683774[]" min="1" value="1" class="buyoff-ipt w60-buyoff hintPopipt" tabindex="40"> </li>             <li class="table-td table-td-w122" style="width: 9%"> <input type="text" placeholder="请勿填写特殊符号" style="width:95%;;margin-left:2px" name="goods_barcode_10683774[]" value="" class="buyoff-ipt" onblur="check_text(this)" tabindex="41">             </li>             <li class="table-td table-td-w122" style="width: 9%"> <input type="text" style="width:95%;margin-left:12px;" name="goods_link_10683774[]" min="1" value="https://mall.leyifan.com/subPackages/pagesOther/transaction_snapshot/index?product_id=24375597&amp;pwd=Ht5XtdB%2F4CiFKrT4YofojYwkubQLlaB024DO0wKEk%2F0%3D" class="buyoff-ipt" readonly="readonly" tabindex="42"> </li>             <li class="table-td table-td-w122" style="width: 9%"> <div class="div_btn" style="position: relative;">上传<label><input class="img_up" id="img_up" ticketid="10683774_0" type="file" style="position: absolute; top: 0; left: 0; opacity: 0; cursor: pointer; height: 40px; width: 100%;" name="file" onchange="uploadImg(this)" accept="image/*" tabindex="43"></label></div>            <div style="float: right;width: 60px;margin-top: -40px;"><img class="comment_pics" id="show_10683774_0" onclick="showImg(this)" style="max-width: 60px;max-height: 50px;margin-left: 20px;" border="0" src=""></div><input id="10683774_0" name="goods_img_10683774[]" style="display: none" value="" tabindex="44"> </li>             <li class="table-td table-td-w122" style="width: 9%"><a href="javascript:;" style="margin-left:40px;color: red" class="butDet-tr">删除</a></li>             </ul>             <div class="table-error"> </div> </div></div>
+                            <div class="lw-buyoff-h40">
+                                <a href="javascript:;" data-ticket-id="10683774" class="butAddoff">添加新商品</a>
+                            </div>
+                        </div>
+                        <div class="bg">
+                            <img class="bgImg" style="max-width: 100%; max-height: 100%; position: fixed;" src="">
+                        </div>
+                        <div class="lw-buyoff lw-buyoff-02 jsGoodsModeShow" style="display:none">
+                            <table class="addgoods" align="center" cellpadding="0" cellspacing="0">
+                                <thead>
+                                <tr>
+                                    <td style="width: 11%">中文品牌名</td>
+                                    <td style="width: 11%">英/日文品牌名</td>
+                                    <td style="width: 11%">商品中文名称</td>
+                                    <td style="width: 11%">商品日文名称</td>
+                                    <td style="width: 11%">商品规格</td>
+                                    <td style="width: 11%">单价(日元)</td>
+                                    <td style="width: 11%">数量（个）</td>
+                                    <td style="width: 11%">商品条码</td>
+                                    <td style="overflow:hidden;white-space:nowrap;text-overflow: ellipsis; width: 11%">购物链接</td>
+                                    <td style="width: 11%">购物截图</td>
+                                </tr>
+                                </thead>
+                                <tbody class="jsAddGoods jsAddGoodsFor10683774">
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                                        <div class="lw-wrapinfo">
+                        <strong style="color:#333">包裹信息</strong>
+                        <span>转运单号: 120208-9352</span>
+                        <span>包裹来源: Mercari</span>
+                        <span>购物单消费总额: </span>
+                                                <span>电商快递单号: m46473540847</span>
+                                                <span class="jsWeight">重量: 50g</span>
+                        <span>标记: </span>
+                    </div>
+                    <div class="err_" style="background-color: #f8afbc; border: 1px solid #d36679; padding-left: 20px; color: #bd5264; width: 1138px;height: 20px;display: none;">
+                        <span class="&quot;+temp+&quot;">商品总重量不能大于包裹重量</span>
+                    </div>
+                    <div class="wrapinfo-list">
+                        <div class="lw-buyoff jsGoodsModeEdit">
+                            <div class="table table-thead">
+                                <ul class="table-tr">
+                                    <li class="table-td table-td-w122" style="width: 9%">中文品牌名<span style="color: red;font-size: 20px">*</span></li>
+                                    <li class="table-td table-td-w122" style="width: 9%">英/日文品牌名<span style="color: red;font-size: 20px">*</span></li>
+                                    <li class="table-td table-td-w122" style="width: 9%">商品中文名称<span style="color: red;font-size: 20px">*</span></li>
+                                    <li class="table-td table-td-w122" style="line-height: 25px;width: 9%"><div style="height: 20px">商品日文名称<span style="color: red;font-size: 20px">*</span></div><div style="color: red;font-size: 10px;height: 20px">（请用日文填写）</div></li>
+                                    <li class="table-td table-td-w122" style="line-height: 15px;width: 9%">
+                                        <div style="height: 20px">商品规格<span style="color: red;font-size: 20px">*</span></div><div style="color: red;font-size: 10px;height: 20px">（比如颜色，型号，尺码，净含量等）</div>
+                                        <!--                                                <em style="top: 0px; right: 65%" class = "ht-status2"></em>-->
+                                    </li>
+                                    <li class="table-td table-td-w122" style="width: 9%">单价(日元)<span style="color: red;font-size: 20px">*</span></li>
+                                    <li class="table-td table-td-w122" style="width: 9%">数量（个）<span style="color: red;font-size: 20px">*</span></li>
+                                    <li class="table-td table-td-w122" style="line-height: 20px;width: 9%"><div style="height: 20px">商品条码</div><div style="font-size: 10px;height: 20px">（若无条码信息，可不填）</div></li>
+                                    <li class="table-td table-td-w122" style="line-height: 20px;width: 9%"><div style="height: 20px">购物链接<span style="color: red;font-size: 20px">*</span></div><div style="color: red;font-size: 10px;height: 20px">（若无链接，须上传截图）</div></li>
+                                    <li class="table-td table-td-w122" style="line-height: 15px;width: 9%;position: relative">
+                                        <img class="comment_pics" onclick="showImg1(this)" style="max-width: 60px;max-height: 50px;margin-left: 20px;position: absolute;top:0;right:20%" border="0" src="/images/show_img.png">
+                                        <div style="height: 20px">购物截图</div><div style="color: red;font-size: 10px;height: 20px">（乐淘一番订单，只须上传乐淘一番购物平台订单截图）</div>
+                                    </li>
+                                    <li class="table-td table-td-w82" style="width: 9%"> 操作</li>
+                                </ul>
+                            </div>
+                            <div class="table table-tbody jsAddGoods jsAddGoodsFor10725076">
+                            <div> <ul class="table-tr">             <li class="table-td table-td-w122" style="width: 9%"> <input type="text" style="width:95%;margin-left:2px" name="goods_type_cn_10725076[]" value="" class="buyoff-ipt" required="" tabindex="45">             </li>             <li class="table-td table-td-w122" style="width: 9%"> <input type="text" style="width:95%;margin-left:2px" name="goods_type_en_10725076[]" value="" class="buyoff-ipt" required="" tabindex="46">             </li>             <li class="table-td table-td-w122" style="width: 9%"> <input type="text" placeholder="请勿填写特殊符号" style="width:95%;margin-left:2px" name="goods_text_cn_10725076[]" value="Mejirushi配件Narumiya角色设置天使蓝色" class="buyoff-ipt" required="" tabindex="47">             </li>             <li class="table-td table-td-w122" style="width: 9%"> <input type="text" style="width:95%;margin-left:2px" placeholder="请勿填写特殊符号" name="goods_text_jp_10725076[]" value="めじるしアクセサリー　ナルミヤキャラクターズ セット エンジェルブルー" class="buyoff-ipt" required="" tabindex="48">             </li>             <li class="table-td table-td-w122" style="width: 9%"> <input type="text" style="width:95%;margin-left:2px" name="goods_text_detail_10725076[]" value="" class="buyoff-ipt" required="" tabindex="49">             </li>             <li class="table-td table-td-w122" style="width: 9%"> <input type="text" style="width:90%;margin-left:2px" name="goods_price_10725076[]" value="1399" class="buyoff-ipt w102-buyoff hintPopipt" tabindex="50"> </li>             <li class="table-td table-td-w122" style="width: 9%"> <input type="number" style="width:90%;margin-left:2px" name="goods_quantity_10725076[]" min="1" value="1" class="buyoff-ipt w60-buyoff hintPopipt" tabindex="51"> </li>             <li class="table-td table-td-w122" style="width: 9%"> <input type="text" placeholder="请勿填写特殊符号" style="width:95%;;margin-left:2px" name="goods_barcode_10725076[]" value="" class="buyoff-ipt" onblur="check_text(this)" tabindex="52">             </li>             <li class="table-td table-td-w122" style="width: 9%"> <input type="text" style="width:95%;margin-left:12px;" name="goods_link_10725076[]" min="1" value="https://mall.leyifan.com/subPackages/pagesOther/transaction_snapshot/index?product_id=24484929&amp;pwd=%2Fh34xsa%2BjOwaQYiwgrLAC3ZpSN4IQdvvPOGppXDPI6U%3D" class="buyoff-ipt" readonly="readonly" tabindex="53"> </li>             <li class="table-td table-td-w122" style="width: 9%"> <div class="div_btn" style="position: relative;">上传<label><input class="img_up" id="img_up" ticketid="10725076_0" type="file" style="position: absolute; top: 0; left: 0; opacity: 0; cursor: pointer; height: 40px; width: 100%;" name="file" onchange="uploadImg(this)" accept="image/*" tabindex="54"></label></div>            <div style="float: right;width: 60px;margin-top: -40px;"><img class="comment_pics" id="show_10725076_0" onclick="showImg(this)" style="max-width: 60px;max-height: 50px;margin-left: 20px;" border="0" src=""></div><input id="10725076_0" name="goods_img_10725076[]" style="display: none" value="" tabindex="55"> </li>             <li class="table-td table-td-w122" style="width: 9%"><a href="javascript:;" style="margin-left:40px;color: red" class="butDet-tr">删除</a></li>             </ul>             <div class="table-error"> </div> </div></div>
+                            <div class="lw-buyoff-h40">
+                                <a href="javascript:;" data-ticket-id="10725076" class="butAddoff">添加新商品</a>
+                            </div>
+                        </div>
+                        <div class="bg">
+                            <img class="bgImg" style="max-width: 100%; max-height: 100%; position: fixed;" src="">
+                        </div>
+                        <div class="lw-buyoff lw-buyoff-02 jsGoodsModeShow" style="display:none">
+                            <table class="addgoods" align="center" cellpadding="0" cellspacing="0">
+                                <thead>
+                                <tr>
+                                    <td style="width: 11%">中文品牌名</td>
+                                    <td style="width: 11%">英/日文品牌名</td>
+                                    <td style="width: 11%">商品中文名称</td>
+                                    <td style="width: 11%">商品日文名称</td>
+                                    <td style="width: 11%">商品规格</td>
+                                    <td style="width: 11%">单价(日元)</td>
+                                    <td style="width: 11%">数量（个）</td>
+                                    <td style="width: 11%">商品条码</td>
+                                    <td style="overflow:hidden;white-space:nowrap;text-overflow: ellipsis; width: 11%">购物链接</td>
+                                    <td style="width: 11%">购物截图</td>
+                                </tr>
+                                </thead>
+                                <tbody class="jsAddGoods jsAddGoodsFor10725076">
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                                        <div class="lw-wrapinfo">
+                        <strong style="color:#333">包裹信息</strong>
+                        <span>转运单号: 120216-5050</span>
+                        <span>包裹来源: Mercari</span>
+                        <span>购物单消费总额: </span>
+                                                <span>电商快递单号: m86477427001</span>
+                                                <span class="jsWeight">重量: 60g</span>
+                        <span>标记: </span>
+                    </div>
+                    <div class="err_" style="background-color: #f8afbc; border: 1px solid #d36679; padding-left: 20px; color: #bd5264; width: 1138px;height: 20px;display: none;">
+                        <span class="&quot;+temp+&quot;">商品总重量不能大于包裹重量</span>
+                    </div>
+                    <div class="wrapinfo-list">
+                        <div class="lw-buyoff jsGoodsModeEdit">
+                            <div class="table table-thead">
+                                <ul class="table-tr">
+                                    <li class="table-td table-td-w122" style="width: 9%">中文品牌名<span style="color: red;font-size: 20px">*</span></li>
+                                    <li class="table-td table-td-w122" style="width: 9%">英/日文品牌名<span style="color: red;font-size: 20px">*</span></li>
+                                    <li class="table-td table-td-w122" style="width: 9%">商品中文名称<span style="color: red;font-size: 20px">*</span></li>
+                                    <li class="table-td table-td-w122" style="line-height: 25px;width: 9%"><div style="height: 20px">商品日文名称<span style="color: red;font-size: 20px">*</span></div><div style="color: red;font-size: 10px;height: 20px">（请用日文填写）</div></li>
+                                    <li class="table-td table-td-w122" style="line-height: 15px;width: 9%">
+                                        <div style="height: 20px">商品规格<span style="color: red;font-size: 20px">*</span></div><div style="color: red;font-size: 10px;height: 20px">（比如颜色，型号，尺码，净含量等）</div>
+                                        <!--                                                <em style="top: 0px; right: 65%" class = "ht-status2"></em>-->
+                                    </li>
+                                    <li class="table-td table-td-w122" style="width: 9%">单价(日元)<span style="color: red;font-size: 20px">*</span></li>
+                                    <li class="table-td table-td-w122" style="width: 9%">数量（个）<span style="color: red;font-size: 20px">*</span></li>
+                                    <li class="table-td table-td-w122" style="line-height: 20px;width: 9%"><div style="height: 20px">商品条码</div><div style="font-size: 10px;height: 20px">（若无条码信息，可不填）</div></li>
+                                    <li class="table-td table-td-w122" style="line-height: 20px;width: 9%"><div style="height: 20px">购物链接<span style="color: red;font-size: 20px">*</span></div><div style="color: red;font-size: 10px;height: 20px">（若无链接，须上传截图）</div></li>
+                                    <li class="table-td table-td-w122" style="line-height: 15px;width: 9%;position: relative">
+                                        <img class="comment_pics" onclick="showImg1(this)" style="max-width: 60px;max-height: 50px;margin-left: 20px;position: absolute;top:0;right:20%" border="0" src="/images/show_img.png">
+                                        <div style="height: 20px">购物截图</div><div style="color: red;font-size: 10px;height: 20px">（乐淘一番订单，只须上传乐淘一番购物平台订单截图）</div>
+                                    </li>
+                                    <li class="table-td table-td-w82" style="width: 9%"> 操作</li>
+                                </ul>
+                            </div>
+                            <div class="table table-tbody jsAddGoods jsAddGoodsFor10761878">
+                            <div> <ul class="table-tr">             <li class="table-td table-td-w122" style="width: 9%"> <input type="text" style="width:95%;margin-left:2px" name="goods_type_cn_10761878[]" value="" class="buyoff-ipt" required="" tabindex="56">             </li>             <li class="table-td table-td-w122" style="width: 9%"> <input type="text" style="width:95%;margin-left:2px" name="goods_type_en_10761878[]" value="" class="buyoff-ipt" required="" tabindex="57">             </li>             <li class="table-td table-td-w122" style="width: 9%"> <input type="text" placeholder="请勿填写特殊符号" style="width:95%;margin-left:2px" name="goods_text_cn_10761878[]" value="[retro] 5➃果链果链套件" class="buyoff-ipt" required="" tabindex="58">             </li>             <li class="table-td table-td-w122" style="width: 9%"> <input type="text" style="width:95%;margin-left:2px" placeholder="请勿填写特殊符号" name="goods_text_jp_10761878[]" value="【レトロ】フルーツ人形キーホルダー5個セット　　➃" class="buyoff-ipt" required="" tabindex="59">             </li>             <li class="table-td table-td-w122" style="width: 9%"> <input type="text" style="width:95%;margin-left:2px" name="goods_text_detail_10761878[]" value="" class="buyoff-ipt" required="" tabindex="60">             </li>             <li class="table-td table-td-w122" style="width: 9%"> <input type="text" style="width:90%;margin-left:2px" name="goods_price_10761878[]" value="1600" class="buyoff-ipt w102-buyoff hintPopipt" tabindex="61"> </li>             <li class="table-td table-td-w122" style="width: 9%"> <input type="number" style="width:90%;margin-left:2px" name="goods_quantity_10761878[]" min="1" value="1" class="buyoff-ipt w60-buyoff hintPopipt" tabindex="62"> </li>             <li class="table-td table-td-w122" style="width: 9%"> <input type="text" placeholder="请勿填写特殊符号" style="width:95%;;margin-left:2px" name="goods_barcode_10761878[]" value="" class="buyoff-ipt" onblur="check_text(this)" tabindex="63">             </li>             <li class="table-td table-td-w122" style="width: 9%"> <input type="text" style="width:95%;margin-left:12px;" name="goods_link_10761878[]" min="1" value="https://mall.leyifan.com/subPackages/pagesOther/transaction_snapshot/index?product_id=24543688&amp;pwd=%2Bkq44g757fhiu%2B1WmmTiDWzLuyRDhUQK4rseOLIrDnU%3D" class="buyoff-ipt" readonly="readonly" tabindex="64"> </li>             <li class="table-td table-td-w122" style="width: 9%"> <div class="div_btn" style="position: relative;">上传<label><input class="img_up" id="img_up" ticketid="10761878_0" type="file" style="position: absolute; top: 0; left: 0; opacity: 0; cursor: pointer; height: 40px; width: 100%;" name="file" onchange="uploadImg(this)" accept="image/*" tabindex="65"></label></div>            <div style="float: right;width: 60px;margin-top: -40px;"><img class="comment_pics" id="show_10761878_0" onclick="showImg(this)" style="max-width: 60px;max-height: 50px;margin-left: 20px;" border="0" src=""></div><input id="10761878_0" name="goods_img_10761878[]" style="display: none" value="" tabindex="66"> </li>             <li class="table-td table-td-w122" style="width: 9%"><a href="javascript:;" style="margin-left:40px;color: red" class="butDet-tr">删除</a></li>             </ul>             <div class="table-error"> </div> </div></div>
+                            <div class="lw-buyoff-h40">
+                                <a href="javascript:;" data-ticket-id="10761878" class="butAddoff">添加新商品</a>
+                            </div>
+                        </div>
+                        <div class="bg">
+                            <img class="bgImg" style="max-width: 100%; max-height: 100%; position: fixed;" src="">
+                        </div>
+                        <div class="lw-buyoff lw-buyoff-02 jsGoodsModeShow" style="display:none">
+                            <table class="addgoods" align="center" cellpadding="0" cellspacing="0">
+                                <thead>
+                                <tr>
+                                    <td style="width: 11%">中文品牌名</td>
+                                    <td style="width: 11%">英/日文品牌名</td>
+                                    <td style="width: 11%">商品中文名称</td>
+                                    <td style="width: 11%">商品日文名称</td>
+                                    <td style="width: 11%">商品规格</td>
+                                    <td style="width: 11%">单价(日元)</td>
+                                    <td style="width: 11%">数量（个）</td>
+                                    <td style="width: 11%">商品条码</td>
+                                    <td style="overflow:hidden;white-space:nowrap;text-overflow: ellipsis; width: 11%">购物链接</td>
+                                    <td style="width: 11%">购物截图</td>
+                                </tr>
+                                </thead>
+                                <tbody class="jsAddGoods jsAddGoodsFor10761878">
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                                        <div class="lw-wrapinfo">
+                        <strong style="color:#333">包裹信息</strong>
+                        <span>转运单号: 120215-5477</span>
+                        <span>包裹来源: Paypay</span>
+                        <span>购物单消费总额: </span>
+                                                <span>电商快递单号: z410704264</span>
+                                                <span class="jsWeight">重量: 100g</span>
+                        <span>标记: </span>
+                    </div>
+                    <div class="err_" style="background-color: #f8afbc; border: 1px solid #d36679; padding-left: 20px; color: #bd5264; width: 1138px;height: 20px;display: none;">
+                        <span class="&quot;+temp+&quot;">商品总重量不能大于包裹重量</span>
+                    </div>
+                    <div class="wrapinfo-list">
+                        <div class="lw-buyoff jsGoodsModeEdit">
+                            <div class="table table-thead">
+                                <ul class="table-tr">
+                                    <li class="table-td table-td-w122" style="width: 9%">中文品牌名<span style="color: red;font-size: 20px">*</span></li>
+                                    <li class="table-td table-td-w122" style="width: 9%">英/日文品牌名<span style="color: red;font-size: 20px">*</span></li>
+                                    <li class="table-td table-td-w122" style="width: 9%">商品中文名称<span style="color: red;font-size: 20px">*</span></li>
+                                    <li class="table-td table-td-w122" style="line-height: 25px;width: 9%"><div style="height: 20px">商品日文名称<span style="color: red;font-size: 20px">*</span></div><div style="color: red;font-size: 10px;height: 20px">（请用日文填写）</div></li>
+                                    <li class="table-td table-td-w122" style="line-height: 15px;width: 9%">
+                                        <div style="height: 20px">商品规格<span style="color: red;font-size: 20px">*</span></div><div style="color: red;font-size: 10px;height: 20px">（比如颜色，型号，尺码，净含量等）</div>
+                                        <!--                                                <em style="top: 0px; right: 65%" class = "ht-status2"></em>-->
+                                    </li>
+                                    <li class="table-td table-td-w122" style="width: 9%">单价(日元)<span style="color: red;font-size: 20px">*</span></li>
+                                    <li class="table-td table-td-w122" style="width: 9%">数量（个）<span style="color: red;font-size: 20px">*</span></li>
+                                    <li class="table-td table-td-w122" style="line-height: 20px;width: 9%"><div style="height: 20px">商品条码</div><div style="font-size: 10px;height: 20px">（若无条码信息，可不填）</div></li>
+                                    <li class="table-td table-td-w122" style="line-height: 20px;width: 9%"><div style="height: 20px">购物链接<span style="color: red;font-size: 20px">*</span></div><div style="color: red;font-size: 10px;height: 20px">（若无链接，须上传截图）</div></li>
+                                    <li class="table-td table-td-w122" style="line-height: 15px;width: 9%;position: relative">
+                                        <img class="comment_pics" onclick="showImg1(this)" style="max-width: 60px;max-height: 50px;margin-left: 20px;position: absolute;top:0;right:20%" border="0" src="/images/show_img.png">
+                                        <div style="height: 20px">购物截图</div><div style="color: red;font-size: 10px;height: 20px">（乐淘一番订单，只须上传乐淘一番购物平台订单截图）</div>
+                                    </li>
+                                    <li class="table-td table-td-w82" style="width: 9%"> 操作</li>
+                                </ul>
+                            </div>
+                            <div class="table table-tbody jsAddGoods jsAddGoodsFor10774278">
+                            <div> <ul class="table-tr">             <li class="table-td table-td-w122" style="width: 9%"> <input type="text" style="width:95%;margin-left:2px" name="goods_type_cn_10774278[]" value="" class="buyoff-ipt" required="" tabindex="67">             </li>             <li class="table-td table-td-w122" style="width: 9%"> <input type="text" style="width:95%;margin-left:2px" name="goods_type_en_10774278[]" value="" class="buyoff-ipt" required="" tabindex="68">             </li>             <li class="table-td table-td-w122" style="width: 9%"> <input type="text" placeholder="请勿填写特殊符号" style="width:95%;margin-left:2px" name="goods_text_cn_10774278[]" value="稀有的！ Mamecchi每日日历首先不出售" class="buyoff-ipt" required="" tabindex="69">             </li>             <li class="table-td table-td-w122" style="width: 9%"> <input type="text" style="width:95%;margin-left:2px" placeholder="请勿填写特殊符号" name="goods_text_jp_10774278[]" value="希少！ まめっち 日めくりカレンダー 初代たまごっち 非売品" class="buyoff-ipt" required="" tabindex="70">             </li>             <li class="table-td table-td-w122" style="width: 9%"> <input type="text" style="width:95%;margin-left:2px" name="goods_text_detail_10774278[]" value="" class="buyoff-ipt" required="" tabindex="71">             </li>             <li class="table-td table-td-w122" style="width: 9%"> <input type="text" style="width:90%;margin-left:2px" name="goods_price_10774278[]" value="4560" class="buyoff-ipt w102-buyoff hintPopipt" tabindex="72"> </li>             <li class="table-td table-td-w122" style="width: 9%"> <input type="number" style="width:90%;margin-left:2px" name="goods_quantity_10774278[]" min="1" value="1" class="buyoff-ipt w60-buyoff hintPopipt" tabindex="73"> </li>             <li class="table-td table-td-w122" style="width: 9%"> <input type="text" placeholder="请勿填写特殊符号" style="width:95%;;margin-left:2px" name="goods_barcode_10774278[]" value="" class="buyoff-ipt" onblur="check_text(this)" tabindex="74">             </li>             <li class="table-td table-td-w122" style="width: 9%"> <input type="text" style="width:95%;margin-left:12px;" name="goods_link_10774278[]" min="1" value="https://mall.leyifan.com/subPackages/pagesOther/transaction_snapshot/index?product_id=24751998&amp;pwd=CDnsfuEHY4Z1h5rQyg2J3NxGpzH8txBuAuWuYdwV0lg%3D" class="buyoff-ipt" readonly="readonly" tabindex="75"> </li>             <li class="table-td table-td-w122" style="width: 9%"> <div class="div_btn" style="position: relative;">上传<label><input class="img_up" id="img_up" ticketid="10774278_0" type="file" style="position: absolute; top: 0; left: 0; opacity: 0; cursor: pointer; height: 40px; width: 100%;" name="file" onchange="uploadImg(this)" accept="image/*" tabindex="76"></label></div>            <div style="float: right;width: 60px;margin-top: -40px;"><img class="comment_pics" id="show_10774278_0" onclick="showImg(this)" style="max-width: 60px;max-height: 50px;margin-left: 20px;" border="0" src=""></div><input id="10774278_0" name="goods_img_10774278[]" style="display: none" value="" tabindex="77"> </li>             <li class="table-td table-td-w122" style="width: 9%"><a href="javascript:;" style="margin-left:40px;color: red" class="butDet-tr">删除</a></li>             </ul>             <div class="table-error"> </div> </div></div>
+                            <div class="lw-buyoff-h40">
+                                <a href="javascript:;" data-ticket-id="10774278" class="butAddoff">添加新商品</a>
+                            </div>
+                        </div>
+                        <div class="bg">
+                            <img class="bgImg" style="max-width: 100%; max-height: 100%; position: fixed;" src="">
+                        </div>
+                        <div class="lw-buyoff lw-buyoff-02 jsGoodsModeShow" style="display:none">
+                            <table class="addgoods" align="center" cellpadding="0" cellspacing="0">
+                                <thead>
+                                <tr>
+                                    <td style="width: 11%">中文品牌名</td>
+                                    <td style="width: 11%">英/日文品牌名</td>
+                                    <td style="width: 11%">商品中文名称</td>
+                                    <td style="width: 11%">商品日文名称</td>
+                                    <td style="width: 11%">商品规格</td>
+                                    <td style="width: 11%">单价(日元)</td>
+                                    <td style="width: 11%">数量（个）</td>
+                                    <td style="width: 11%">商品条码</td>
+                                    <td style="overflow:hidden;white-space:nowrap;text-overflow: ellipsis; width: 11%">购物链接</td>
+                                    <td style="width: 11%">购物截图</td>
+                                </tr>
+                                </thead>
+                                <tbody class="jsAddGoods jsAddGoodsFor10774278">
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                                        <div class="lw-wrapinfo">
+                        <strong style="color:#333">包裹信息</strong>
+                        <span>转运单号: 120218-9057</span>
+                        <span>包裹来源: Mercari</span>
+                        <span>购物单消费总额: </span>
+                                                <span>电商快递单号: m23573386126</span>
+                                                <span class="jsWeight">重量: 40g</span>
+                        <span>标记: </span>
+                    </div>
+                    <div class="err_" style="background-color: #f8afbc; border: 1px solid #d36679; padding-left: 20px; color: #bd5264; width: 1138px;height: 20px;display: none;">
+                        <span class="&quot;+temp+&quot;">商品总重量不能大于包裹重量</span>
+                    </div>
+                    <div class="wrapinfo-list">
+                        <div class="lw-buyoff jsGoodsModeEdit">
+                            <div class="table table-thead">
+                                <ul class="table-tr">
+                                    <li class="table-td table-td-w122" style="width: 9%">中文品牌名<span style="color: red;font-size: 20px">*</span></li>
+                                    <li class="table-td table-td-w122" style="width: 9%">英/日文品牌名<span style="color: red;font-size: 20px">*</span></li>
+                                    <li class="table-td table-td-w122" style="width: 9%">商品中文名称<span style="color: red;font-size: 20px">*</span></li>
+                                    <li class="table-td table-td-w122" style="line-height: 25px;width: 9%"><div style="height: 20px">商品日文名称<span style="color: red;font-size: 20px">*</span></div><div style="color: red;font-size: 10px;height: 20px">（请用日文填写）</div></li>
+                                    <li class="table-td table-td-w122" style="line-height: 15px;width: 9%">
+                                        <div style="height: 20px">商品规格<span style="color: red;font-size: 20px">*</span></div><div style="color: red;font-size: 10px;height: 20px">（比如颜色，型号，尺码，净含量等）</div>
+                                        <!--                                                <em style="top: 0px; right: 65%" class = "ht-status2"></em>-->
+                                    </li>
+                                    <li class="table-td table-td-w122" style="width: 9%">单价(日元)<span style="color: red;font-size: 20px">*</span></li>
+                                    <li class="table-td table-td-w122" style="width: 9%">数量（个）<span style="color: red;font-size: 20px">*</span></li>
+                                    <li class="table-td table-td-w122" style="line-height: 20px;width: 9%"><div style="height: 20px">商品条码</div><div style="font-size: 10px;height: 20px">（若无条码信息，可不填）</div></li>
+                                    <li class="table-td table-td-w122" style="line-height: 20px;width: 9%"><div style="height: 20px">购物链接<span style="color: red;font-size: 20px">*</span></div><div style="color: red;font-size: 10px;height: 20px">（若无链接，须上传截图）</div></li>
+                                    <li class="table-td table-td-w122" style="line-height: 15px;width: 9%;position: relative">
+                                        <img class="comment_pics" onclick="showImg1(this)" style="max-width: 60px;max-height: 50px;margin-left: 20px;position: absolute;top:0;right:20%" border="0" src="/images/show_img.png">
+                                        <div style="height: 20px">购物截图</div><div style="color: red;font-size: 10px;height: 20px">（乐淘一番订单，只须上传乐淘一番购物平台订单截图）</div>
+                                    </li>
+                                    <li class="table-td table-td-w82" style="width: 9%"> 操作</li>
+                                </ul>
+                            </div>
+                            <div class="table table-tbody jsAddGoods jsAddGoodsFor10803133">
+                            <div> <ul class="table-tr">             <li class="table-td table-td-w122" style="width: 9%"> <input type="text" style="width:95%;margin-left:2px" name="goods_type_cn_10803133[]" value="" class="buyoff-ipt" required="" tabindex="78">             </li>             <li class="table-td table-td-w122" style="width: 9%"> <input type="text" style="width:95%;margin-left:2px" name="goods_type_en_10803133[]" value="" class="buyoff-ipt" required="" tabindex="79">             </li>             <li class="table-td table-td-w122" style="width: 9%"> <input type="text" placeholder="请勿填写特殊符号" style="width:95%;margin-left:2px" name="goods_text_cn_10803133[]" value="苹果苹果苹果shinshu shiga kogen" class="buyoff-ipt" required="" tabindex="80">             </li>             <li class="table-td table-td-w122" style="width: 9%"> <input type="text" style="width:95%;margin-left:2px" placeholder="请勿填写特殊符号" name="goods_text_jp_10803133[]" value="りんご　耳かき　りんごちゃん　信州　志賀高原" class="buyoff-ipt" required="" tabindex="81">             </li>             <li class="table-td table-td-w122" style="width: 9%"> <input type="text" style="width:95%;margin-left:2px" name="goods_text_detail_10803133[]" value="" class="buyoff-ipt" required="" tabindex="82">             </li>             <li class="table-td table-td-w122" style="width: 9%"> <input type="text" style="width:90%;margin-left:2px" name="goods_price_10803133[]" value="777" class="buyoff-ipt w102-buyoff hintPopipt" tabindex="83"> </li>             <li class="table-td table-td-w122" style="width: 9%"> <input type="number" style="width:90%;margin-left:2px" name="goods_quantity_10803133[]" min="1" value="1" class="buyoff-ipt w60-buyoff hintPopipt" tabindex="84"> </li>             <li class="table-td table-td-w122" style="width: 9%"> <input type="text" placeholder="请勿填写特殊符号" style="width:95%;;margin-left:2px" name="goods_barcode_10803133[]" value="" class="buyoff-ipt" onblur="check_text(this)" tabindex="85">             </li>             <li class="table-td table-td-w122" style="width: 9%"> <input type="text" style="width:95%;margin-left:12px;" name="goods_link_10803133[]" min="1" value="https://mall.leyifan.com/subPackages/pagesOther/transaction_snapshot/index?product_id=24750459&amp;pwd=%2Bkq44g757fhiu%2B1WmmTiDWzLuyRDhUQKCust2vYC9wc%3D" class="buyoff-ipt" readonly="readonly" tabindex="86"> </li>             <li class="table-td table-td-w122" style="width: 9%"> <div class="div_btn" style="position: relative;">上传<label><input class="img_up" id="img_up" ticketid="10803133_0" type="file" style="position: absolute; top: 0; left: 0; opacity: 0; cursor: pointer; height: 40px; width: 100%;" name="file" onchange="uploadImg(this)" accept="image/*" tabindex="87"></label></div>            <div style="float: right;width: 60px;margin-top: -40px;"><img class="comment_pics" id="show_10803133_0" onclick="showImg(this)" style="max-width: 60px;max-height: 50px;margin-left: 20px;" border="0" src=""></div><input id="10803133_0" name="goods_img_10803133[]" style="display: none" value="" tabindex="88"> </li>             <li class="table-td table-td-w122" style="width: 9%"><a href="javascript:;" style="margin-left:40px;color: red" class="butDet-tr">删除</a></li>             </ul>             <div class="table-error"> </div> </div></div>
+                            <div class="lw-buyoff-h40">
+                                <a href="javascript:;" data-ticket-id="10803133" class="butAddoff">添加新商品</a>
+                            </div>
+                        </div>
+                        <div class="bg">
+                            <img class="bgImg" style="max-width: 100%; max-height: 100%; position: fixed;" src="">
+                        </div>
+                        <div class="lw-buyoff lw-buyoff-02 jsGoodsModeShow" style="display:none">
+                            <table class="addgoods" align="center" cellpadding="0" cellspacing="0">
+                                <thead>
+                                <tr>
+                                    <td style="width: 11%">中文品牌名</td>
+                                    <td style="width: 11%">英/日文品牌名</td>
+                                    <td style="width: 11%">商品中文名称</td>
+                                    <td style="width: 11%">商品日文名称</td>
+                                    <td style="width: 11%">商品规格</td>
+                                    <td style="width: 11%">单价(日元)</td>
+                                    <td style="width: 11%">数量（个）</td>
+                                    <td style="width: 11%">商品条码</td>
+                                    <td style="overflow:hidden;white-space:nowrap;text-overflow: ellipsis; width: 11%">购物链接</td>
+                                    <td style="width: 11%">购物截图</td>
+                                </tr>
+                                </thead>
+                                <tbody class="jsAddGoods jsAddGoodsFor10803133">
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                                        <div class="lw-wrapinfo">
+                        <strong style="color:#333">包裹信息</strong>
+                        <span>转运单号: 120221-5385</span>
+                        <span>包裹来源: Paypay</span>
+                        <span>购物单消费总额: </span>
+                                                <span>电商快递单号: z418827292</span>
+                                                <span class="jsWeight">重量: 105g</span>
+                        <span>标记: </span>
+                    </div>
+                    <div class="err_" style="background-color: #f8afbc; border: 1px solid #d36679; padding-left: 20px; color: #bd5264; width: 1138px;height: 20px;display: none;">
+                        <span class="&quot;+temp+&quot;">商品总重量不能大于包裹重量</span>
+                    </div>
+                    <div class="wrapinfo-list">
+                        <div class="lw-buyoff jsGoodsModeEdit">
+                            <div class="table table-thead">
+                                <ul class="table-tr">
+                                    <li class="table-td table-td-w122" style="width: 9%">中文品牌名<span style="color: red;font-size: 20px">*</span></li>
+                                    <li class="table-td table-td-w122" style="width: 9%">英/日文品牌名<span style="color: red;font-size: 20px">*</span></li>
+                                    <li class="table-td table-td-w122" style="width: 9%">商品中文名称<span style="color: red;font-size: 20px">*</span></li>
+                                    <li class="table-td table-td-w122" style="line-height: 25px;width: 9%"><div style="height: 20px">商品日文名称<span style="color: red;font-size: 20px">*</span></div><div style="color: red;font-size: 10px;height: 20px">（请用日文填写）</div></li>
+                                    <li class="table-td table-td-w122" style="line-height: 15px;width: 9%">
+                                        <div style="height: 20px">商品规格<span style="color: red;font-size: 20px">*</span></div><div style="color: red;font-size: 10px;height: 20px">（比如颜色，型号，尺码，净含量等）</div>
+                                        <!--                                                <em style="top: 0px; right: 65%" class = "ht-status2"></em>-->
+                                    </li>
+                                    <li class="table-td table-td-w122" style="width: 9%">单价(日元)<span style="color: red;font-size: 20px">*</span></li>
+                                    <li class="table-td table-td-w122" style="width: 9%">数量（个）<span style="color: red;font-size: 20px">*</span></li>
+                                    <li class="table-td table-td-w122" style="line-height: 20px;width: 9%"><div style="height: 20px">商品条码</div><div style="font-size: 10px;height: 20px">（若无条码信息，可不填）</div></li>
+                                    <li class="table-td table-td-w122" style="line-height: 20px;width: 9%"><div style="height: 20px">购物链接<span style="color: red;font-size: 20px">*</span></div><div style="color: red;font-size: 10px;height: 20px">（若无链接，须上传截图）</div></li>
+                                    <li class="table-td table-td-w122" style="line-height: 15px;width: 9%;position: relative">
+                                        <img class="comment_pics" onclick="showImg1(this)" style="max-width: 60px;max-height: 50px;margin-left: 20px;position: absolute;top:0;right:20%" border="0" src="/images/show_img.png">
+                                        <div style="height: 20px">购物截图</div><div style="color: red;font-size: 10px;height: 20px">（乐淘一番订单，只须上传乐淘一番购物平台订单截图）</div>
+                                    </li>
+                                    <li class="table-td table-td-w82" style="width: 9%"> 操作</li>
+                                </ul>
+                            </div>
+                            <div class="table table-tbody jsAddGoods jsAddGoodsFor10821620">
+                            <div> <ul class="table-tr">             <li class="table-td table-td-w122" style="width: 9%"> <input type="text" style="width:95%;margin-left:2px" name="goods_type_cn_10821620[]" value="" class="buyoff-ipt" required="" tabindex="89">             </li>             <li class="table-td table-td-w122" style="width: 9%"> <input type="text" style="width:95%;margin-left:2px" name="goods_type_en_10821620[]" value="" class="buyoff-ipt" required="" tabindex="90">             </li>             <li class="table-td table-td-w122" style="width: 9%"> <input type="text" placeholder="请勿填写特殊符号" style="width:95%;margin-left:2px" name="goods_text_cn_10821620[]" value="▲新的，未打开的贵族复古小吃，硬币盒，钥匙扣，6组" class="buyoff-ipt" required="" tabindex="91">             </li>             <li class="table-td table-td-w122" style="width: 9%"> <input type="text" style="width:95%;margin-left:2px" placeholder="请勿填写特殊符号" name="goods_text_jp_10821620[]" value="▲新品未開封 昭和 レトロ おやつ コインケース キーホルダー 6個セット" class="buyoff-ipt" required="" tabindex="92">             </li>             <li class="table-td table-td-w122" style="width: 9%"> <input type="text" style="width:95%;margin-left:2px" name="goods_text_detail_10821620[]" value="" class="buyoff-ipt" required="" tabindex="93">             </li>             <li class="table-td table-td-w122" style="width: 9%"> <input type="text" style="width:90%;margin-left:2px" name="goods_price_10821620[]" value="599" class="buyoff-ipt w102-buyoff hintPopipt" tabindex="94"> </li>             <li class="table-td table-td-w122" style="width: 9%"> <input type="number" style="width:90%;margin-left:2px" name="goods_quantity_10821620[]" min="1" value="1" class="buyoff-ipt w60-buyoff hintPopipt" tabindex="95"> </li>             <li class="table-td table-td-w122" style="width: 9%"> <input type="text" placeholder="请勿填写特殊符号" style="width:95%;;margin-left:2px" name="goods_barcode_10821620[]" value="" class="buyoff-ipt" onblur="check_text(this)" tabindex="96">             </li>             <li class="table-td table-td-w122" style="width: 9%"> <input type="text" style="width:95%;margin-left:12px;" name="goods_link_10821620[]" min="1" value="https://mall.leyifan.com/subPackages/pagesOther/transaction_snapshot/index?product_id=24754256&amp;pwd=CDnsfuEHY4Z1h5rQyg2J3NxGpzH8txBuKVOY1SPP9Hs%3D" class="buyoff-ipt" readonly="readonly" tabindex="97"> </li>             <li class="table-td table-td-w122" style="width: 9%"> <div class="div_btn" style="position: relative;">上传<label><input class="img_up" id="img_up" ticketid="10821620_0" type="file" style="position: absolute; top: 0; left: 0; opacity: 0; cursor: pointer; height: 40px; width: 100%;" name="file" onchange="uploadImg(this)" accept="image/*" tabindex="98"></label></div>            <div style="float: right;width: 60px;margin-top: -40px;"><img class="comment_pics" id="show_10821620_0" onclick="showImg(this)" style="max-width: 60px;max-height: 50px;margin-left: 20px;" border="0" src=""></div><input id="10821620_0" name="goods_img_10821620[]" style="display: none" value="" tabindex="99"> </li>             <li class="table-td table-td-w122" style="width: 9%"><a href="javascript:;" style="margin-left:40px;color: red" class="butDet-tr">删除</a></li>             </ul>             <div class="table-error"> </div> </div></div>
+                            <div class="lw-buyoff-h40">
+                                <a href="javascript:;" data-ticket-id="10821620" class="butAddoff">添加新商品</a>
+                            </div>
+                        </div>
+                        <div class="bg">
+                            <img class="bgImg" style="max-width: 100%; max-height: 100%; position: fixed;" src="">
+                        </div>
+                        <div class="lw-buyoff lw-buyoff-02 jsGoodsModeShow" style="display:none">
+                            <table class="addgoods" align="center" cellpadding="0" cellspacing="0">
+                                <thead>
+                                <tr>
+                                    <td style="width: 11%">中文品牌名</td>
+                                    <td style="width: 11%">英/日文品牌名</td>
+                                    <td style="width: 11%">商品中文名称</td>
+                                    <td style="width: 11%">商品日文名称</td>
+                                    <td style="width: 11%">商品规格</td>
+                                    <td style="width: 11%">单价(日元)</td>
+                                    <td style="width: 11%">数量（个）</td>
+                                    <td style="width: 11%">商品条码</td>
+                                    <td style="overflow:hidden;white-space:nowrap;text-overflow: ellipsis; width: 11%">购物链接</td>
+                                    <td style="width: 11%">购物截图</td>
+                                </tr>
+                                </thead>
+                                <tbody class="jsAddGoods jsAddGoodsFor10821620">
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                                        <div class="lw-wrapinfo">
+                        <strong style="color:#333">包裹信息</strong>
+                        <span>转运单号: 120228-6737</span>
+                        <span>包裹来源: Paypay</span>
+                        <span>购物单消费总额: </span>
+                                                <span>电商快递单号: z396560256</span>
+                                                <span class="jsWeight">重量: 200g</span>
+                        <span>标记: </span>
+                    </div>
+                    <div class="err_" style="background-color: #f8afbc; border: 1px solid #d36679; padding-left: 20px; color: #bd5264; width: 1138px;height: 20px;display: none;">
+                        <span class="&quot;+temp+&quot;">商品总重量不能大于包裹重量</span>
+                    </div>
+                    <div class="wrapinfo-list">
+                        <div class="lw-buyoff jsGoodsModeEdit">
+                            <div class="table table-thead">
+                                <ul class="table-tr">
+                                    <li class="table-td table-td-w122" style="width: 9%">中文品牌名<span style="color: red;font-size: 20px">*</span></li>
+                                    <li class="table-td table-td-w122" style="width: 9%">英/日文品牌名<span style="color: red;font-size: 20px">*</span></li>
+                                    <li class="table-td table-td-w122" style="width: 9%">商品中文名称<span style="color: red;font-size: 20px">*</span></li>
+                                    <li class="table-td table-td-w122" style="line-height: 25px;width: 9%"><div style="height: 20px">商品日文名称<span style="color: red;font-size: 20px">*</span></div><div style="color: red;font-size: 10px;height: 20px">（请用日文填写）</div></li>
+                                    <li class="table-td table-td-w122" style="line-height: 15px;width: 9%">
+                                        <div style="height: 20px">商品规格<span style="color: red;font-size: 20px">*</span></div><div style="color: red;font-size: 10px;height: 20px">（比如颜色，型号，尺码，净含量等）</div>
+                                        <!--                                                <em style="top: 0px; right: 65%" class = "ht-status2"></em>-->
+                                    </li>
+                                    <li class="table-td table-td-w122" style="width: 9%">单价(日元)<span style="color: red;font-size: 20px">*</span></li>
+                                    <li class="table-td table-td-w122" style="width: 9%">数量（个）<span style="color: red;font-size: 20px">*</span></li>
+                                    <li class="table-td table-td-w122" style="line-height: 20px;width: 9%"><div style="height: 20px">商品条码</div><div style="font-size: 10px;height: 20px">（若无条码信息，可不填）</div></li>
+                                    <li class="table-td table-td-w122" style="line-height: 20px;width: 9%"><div style="height: 20px">购物链接<span style="color: red;font-size: 20px">*</span></div><div style="color: red;font-size: 10px;height: 20px">（若无链接，须上传截图）</div></li>
+                                    <li class="table-td table-td-w122" style="line-height: 15px;width: 9%;position: relative">
+                                        <img class="comment_pics" onclick="showImg1(this)" style="max-width: 60px;max-height: 50px;margin-left: 20px;position: absolute;top:0;right:20%" border="0" src="/images/show_img.png">
+                                        <div style="height: 20px">购物截图</div><div style="color: red;font-size: 10px;height: 20px">（乐淘一番订单，只须上传乐淘一番购物平台订单截图）</div>
+                                    </li>
+                                    <li class="table-td table-td-w82" style="width: 9%"> 操作</li>
+                                </ul>
+                            </div>
+                            <div class="table table-tbody jsAddGoods jsAddGoodsFor10889955">
+                            <div> <ul class="table-tr">             <li class="table-td table-td-w122" style="width: 9%"> <input type="text" style="width:95%;margin-left:2px" name="goods_type_cn_10889955[]" value="" class="buyoff-ipt" required="" tabindex="100">             </li>             <li class="table-td table-td-w122" style="width: 9%"> <input type="text" style="width:95%;margin-left:2px" name="goods_type_en_10889955[]" value="" class="buyoff-ipt" required="" tabindex="101">             </li>             <li class="table-td table-td-w122" style="width: 9%"> <input type="text" placeholder="请勿填写特殊符号" style="width:95%;margin-left:2px" name="goods_text_cn_10889955[]" value="gegege no mori 4种皮带" class="buyoff-ipt" required="" tabindex="102">             </li>             <li class="table-td table-td-w122" style="width: 9%"> <input type="text" style="width:95%;margin-left:2px" placeholder="请勿填写特殊符号" name="goods_text_jp_10889955[]" value="ゲゲゲの森　ストラップ4種" class="buyoff-ipt" required="" tabindex="103">             </li>             <li class="table-td table-td-w122" style="width: 9%"> <input type="text" style="width:95%;margin-left:2px" name="goods_text_detail_10889955[]" value="" class="buyoff-ipt" required="" tabindex="104">             </li>             <li class="table-td table-td-w122" style="width: 9%"> <input type="text" style="width:90%;margin-left:2px" name="goods_price_10889955[]" value="1000" class="buyoff-ipt w102-buyoff hintPopipt" tabindex="105"> </li>             <li class="table-td table-td-w122" style="width: 9%"> <input type="number" style="width:90%;margin-left:2px" name="goods_quantity_10889955[]" min="1" value="1" class="buyoff-ipt w60-buyoff hintPopipt" tabindex="106"> </li>             <li class="table-td table-td-w122" style="width: 9%"> <input type="text" placeholder="请勿填写特殊符号" style="width:95%;;margin-left:2px" name="goods_barcode_10889955[]" value="" class="buyoff-ipt" onblur="check_text(this)" tabindex="107">             </li>             <li class="table-td table-td-w122" style="width: 9%"> <input type="text" style="width:95%;margin-left:12px;" name="goods_link_10889955[]" min="1" value="https://mall.leyifan.com/subPackages/pagesOther/transaction_snapshot/index?product_id=24952385&amp;pwd=5zC7%2FxCRiW2JY9rC7NuDfYt5xItnjxgyNrOUed6QbYg%3D" class="buyoff-ipt" readonly="readonly" tabindex="108"> </li>             <li class="table-td table-td-w122" style="width: 9%"> <div class="div_btn" style="position: relative;">上传<label><input class="img_up" id="img_up" ticketid="10889955_0" type="file" style="position: absolute; top: 0; left: 0; opacity: 0; cursor: pointer; height: 40px; width: 100%;" name="file" onchange="uploadImg(this)" accept="image/*" tabindex="109"></label></div>            <div style="float: right;width: 60px;margin-top: -40px;"><img class="comment_pics" id="show_10889955_0" onclick="showImg(this)" style="max-width: 60px;max-height: 50px;margin-left: 20px;" border="0" src=""></div><input id="10889955_0" name="goods_img_10889955[]" style="display: none" value="" tabindex="110"> </li>             <li class="table-td table-td-w122" style="width: 9%"><a href="javascript:;" style="margin-left:40px;color: red" class="butDet-tr">删除</a></li>             </ul>             <div class="table-error"> </div> </div></div>
+                            <div class="lw-buyoff-h40">
+                                <a href="javascript:;" data-ticket-id="10889955" class="butAddoff">添加新商品</a>
+                            </div>
+                        </div>
+                        <div class="bg">
+                            <img class="bgImg" style="max-width: 100%; max-height: 100%; position: fixed;" src="">
+                        </div>
+                        <div class="lw-buyoff lw-buyoff-02 jsGoodsModeShow" style="display:none">
+                            <table class="addgoods" align="center" cellpadding="0" cellspacing="0">
+                                <thead>
+                                <tr>
+                                    <td style="width: 11%">中文品牌名</td>
+                                    <td style="width: 11%">英/日文品牌名</td>
+                                    <td style="width: 11%">商品中文名称</td>
+                                    <td style="width: 11%">商品日文名称</td>
+                                    <td style="width: 11%">商品规格</td>
+                                    <td style="width: 11%">单价(日元)</td>
+                                    <td style="width: 11%">数量（个）</td>
+                                    <td style="width: 11%">商品条码</td>
+                                    <td style="overflow:hidden;white-space:nowrap;text-overflow: ellipsis; width: 11%">购物链接</td>
+                                    <td style="width: 11%">购物截图</td>
+                                </tr>
+                                </thead>
+                                <tbody class="jsAddGoods jsAddGoodsFor10889955">
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                                        <div class="lw-wrapinfo">
+                        <strong style="color:#333">包裹信息</strong>
+                        <span>转运单号: 120303-9192</span>
+                        <span>包裹来源: Paypay</span>
+                        <span>购物单消费总额: </span>
+                                                <span>电商快递单号: z415103386</span>
+                                                <span class="jsWeight">重量: 455g</span>
+                        <span>标记: </span>
+                    </div>
+                    <div class="err_" style="background-color: #f8afbc; border: 1px solid #d36679; padding-left: 20px; color: #bd5264; width: 1138px;height: 20px;display: none;">
+                        <span class="&quot;+temp+&quot;">商品总重量不能大于包裹重量</span>
+                    </div>
+                    <div class="wrapinfo-list">
+                        <div class="lw-buyoff jsGoodsModeEdit">
+                            <div class="table table-thead">
+                                <ul class="table-tr">
+                                    <li class="table-td table-td-w122" style="width: 9%">中文品牌名<span style="color: red;font-size: 20px">*</span></li>
+                                    <li class="table-td table-td-w122" style="width: 9%">英/日文品牌名<span style="color: red;font-size: 20px">*</span></li>
+                                    <li class="table-td table-td-w122" style="width: 9%">商品中文名称<span style="color: red;font-size: 20px">*</span></li>
+                                    <li class="table-td table-td-w122" style="line-height: 25px;width: 9%"><div style="height: 20px">商品日文名称<span style="color: red;font-size: 20px">*</span></div><div style="color: red;font-size: 10px;height: 20px">（请用日文填写）</div></li>
+                                    <li class="table-td table-td-w122" style="line-height: 15px;width: 9%">
+                                        <div style="height: 20px">商品规格<span style="color: red;font-size: 20px">*</span></div><div style="color: red;font-size: 10px;height: 20px">（比如颜色，型号，尺码，净含量等）</div>
+                                        <!--                                                <em style="top: 0px; right: 65%" class = "ht-status2"></em>-->
+                                    </li>
+                                    <li class="table-td table-td-w122" style="width: 9%">单价(日元)<span style="color: red;font-size: 20px">*</span></li>
+                                    <li class="table-td table-td-w122" style="width: 9%">数量（个）<span style="color: red;font-size: 20px">*</span></li>
+                                    <li class="table-td table-td-w122" style="line-height: 20px;width: 9%"><div style="height: 20px">商品条码</div><div style="font-size: 10px;height: 20px">（若无条码信息，可不填）</div></li>
+                                    <li class="table-td table-td-w122" style="line-height: 20px;width: 9%"><div style="height: 20px">购物链接<span style="color: red;font-size: 20px">*</span></div><div style="color: red;font-size: 10px;height: 20px">（若无链接，须上传截图）</div></li>
+                                    <li class="table-td table-td-w122" style="line-height: 15px;width: 9%;position: relative">
+                                        <img class="comment_pics" onclick="showImg1(this)" style="max-width: 60px;max-height: 50px;margin-left: 20px;position: absolute;top:0;right:20%" border="0" src="/images/show_img.png">
+                                        <div style="height: 20px">购物截图</div><div style="color: red;font-size: 10px;height: 20px">（乐淘一番订单，只须上传乐淘一番购物平台订单截图）</div>
+                                    </li>
+                                    <li class="table-td table-td-w82" style="width: 9%"> 操作</li>
+                                </ul>
+                            </div>
+                            <div class="table table-tbody jsAddGoods jsAddGoodsFor10903442">
+                            <div> <ul class="table-tr">             <li class="table-td table-td-w122" style="width: 9%"> <input type="text" style="width:95%;margin-left:2px" name="goods_type_cn_10903442[]" value="" class="buyoff-ipt" required="" tabindex="111">             </li>             <li class="table-td table-td-w122" style="width: 9%"> <input type="text" style="width:95%;margin-left:2px" name="goods_type_en_10903442[]" value="" class="buyoff-ipt" required="" tabindex="112">             </li>             <li class="table-td table-td-w122" style="width: 9%"> <input type="text" placeholder="请勿填写特殊符号" style="width:95%;margin-left:2px" name="goods_text_cn_10903442[]" value="Retro Poodle套件2 showa retro" class="buyoff-ipt" required="" tabindex="113">             </li>             <li class="table-td table-td-w122" style="width: 9%"> <input type="text" style="width:95%;margin-left:2px" placeholder="请勿填写特殊符号" name="goods_text_jp_10903442[]" value="レトロなプードル　2個セット 昭和レトロ" class="buyoff-ipt" required="" tabindex="114">             </li>             <li class="table-td table-td-w122" style="width: 9%"> <input type="text" style="width:95%;margin-left:2px" name="goods_text_detail_10903442[]" value="" class="buyoff-ipt" required="" tabindex="115">             </li>             <li class="table-td table-td-w122" style="width: 9%"> <input type="text" style="width:90%;margin-left:2px" name="goods_price_10903442[]" value="4980" class="buyoff-ipt w102-buyoff hintPopipt" tabindex="116"> </li>             <li class="table-td table-td-w122" style="width: 9%"> <input type="number" style="width:90%;margin-left:2px" name="goods_quantity_10903442[]" min="1" value="1" class="buyoff-ipt w60-buyoff hintPopipt" tabindex="117"> </li>             <li class="table-td table-td-w122" style="width: 9%"> <input type="text" placeholder="请勿填写特殊符号" style="width:95%;;margin-left:2px" name="goods_barcode_10903442[]" value="" class="buyoff-ipt" onblur="check_text(this)" tabindex="118">             </li>             <li class="table-td table-td-w122" style="width: 9%"> <input type="text" style="width:95%;margin-left:12px;" name="goods_link_10903442[]" min="1" value="https://mall.leyifan.com/subPackages/pagesOther/transaction_snapshot/index?product_id=24966129&amp;pwd=5zC7%2FxCRiW2JY9rC7NuDfYt5xItnjxgyNBPpgtkzmiE%3D" class="buyoff-ipt" readonly="readonly" tabindex="119"> </li>             <li class="table-td table-td-w122" style="width: 9%"> <div class="div_btn" style="position: relative;">上传<label><input class="img_up" id="img_up" ticketid="10903442_0" type="file" style="position: absolute; top: 0; left: 0; opacity: 0; cursor: pointer; height: 40px; width: 100%;" name="file" onchange="uploadImg(this)" accept="image/*" tabindex="120"></label></div>            <div style="float: right;width: 60px;margin-top: -40px;"><img class="comment_pics" id="show_10903442_0" onclick="showImg(this)" style="max-width: 60px;max-height: 50px;margin-left: 20px;" border="0" src=""></div><input id="10903442_0" name="goods_img_10903442[]" style="display: none" value="" tabindex="121"> </li>             <li class="table-td table-td-w122" style="width: 9%"><a href="javascript:;" style="margin-left:40px;color: red" class="butDet-tr">删除</a></li>             </ul>             <div class="table-error"> </div> </div></div>
+                            <div class="lw-buyoff-h40">
+                                <a href="javascript:;" data-ticket-id="10903442" class="butAddoff">添加新商品</a>
+                            </div>
+                        </div>
+                        <div class="bg">
+                            <img class="bgImg" style="max-width: 100%; max-height: 100%; position: fixed;" src="">
+                        </div>
+                        <div class="lw-buyoff lw-buyoff-02 jsGoodsModeShow" style="display:none">
+                            <table class="addgoods" align="center" cellpadding="0" cellspacing="0">
+                                <thead>
+                                <tr>
+                                    <td style="width: 11%">中文品牌名</td>
+                                    <td style="width: 11%">英/日文品牌名</td>
+                                    <td style="width: 11%">商品中文名称</td>
+                                    <td style="width: 11%">商品日文名称</td>
+                                    <td style="width: 11%">商品规格</td>
+                                    <td style="width: 11%">单价(日元)</td>
+                                    <td style="width: 11%">数量（个）</td>
+                                    <td style="width: 11%">商品条码</td>
+                                    <td style="overflow:hidden;white-space:nowrap;text-overflow: ellipsis; width: 11%">购物链接</td>
+                                    <td style="width: 11%">购物截图</td>
+                                </tr>
+                                </thead>
+                                <tbody class="jsAddGoods jsAddGoodsFor10903442">
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                                        <div class="lw-wrapinfo">
+                        <strong style="color:#333">包裹信息</strong>
+                        <span>转运单号: 120307-7461</span>
+                        <span>包裹来源: Paypay</span>
+                        <span>购物单消费总额: </span>
+                                                <span>电商快递单号: z347783454</span>
+                                                <span class="jsWeight">重量: 495g</span>
+                        <span>标记: </span>
+                    </div>
+                    <div class="err_" style="background-color: #f8afbc; border: 1px solid #d36679; padding-left: 20px; color: #bd5264; width: 1138px;height: 20px;display: none;">
+                        <span class="&quot;+temp+&quot;">商品总重量不能大于包裹重量</span>
+                    </div>
+                    <div class="wrapinfo-list">
+                        <div class="lw-buyoff jsGoodsModeEdit">
+                            <div class="table table-thead">
+                                <ul class="table-tr">
+                                    <li class="table-td table-td-w122" style="width: 9%">中文品牌名<span style="color: red;font-size: 20px">*</span></li>
+                                    <li class="table-td table-td-w122" style="width: 9%">英/日文品牌名<span style="color: red;font-size: 20px">*</span></li>
+                                    <li class="table-td table-td-w122" style="width: 9%">商品中文名称<span style="color: red;font-size: 20px">*</span></li>
+                                    <li class="table-td table-td-w122" style="line-height: 25px;width: 9%"><div style="height: 20px">商品日文名称<span style="color: red;font-size: 20px">*</span></div><div style="color: red;font-size: 10px;height: 20px">（请用日文填写）</div></li>
+                                    <li class="table-td table-td-w122" style="line-height: 15px;width: 9%">
+                                        <div style="height: 20px">商品规格<span style="color: red;font-size: 20px">*</span></div><div style="color: red;font-size: 10px;height: 20px">（比如颜色，型号，尺码，净含量等）</div>
+                                        <!--                                                <em style="top: 0px; right: 65%" class = "ht-status2"></em>-->
+                                    </li>
+                                    <li class="table-td table-td-w122" style="width: 9%">单价(日元)<span style="color: red;font-size: 20px">*</span></li>
+                                    <li class="table-td table-td-w122" style="width: 9%">数量（个）<span style="color: red;font-size: 20px">*</span></li>
+                                    <li class="table-td table-td-w122" style="line-height: 20px;width: 9%"><div style="height: 20px">商品条码</div><div style="font-size: 10px;height: 20px">（若无条码信息，可不填）</div></li>
+                                    <li class="table-td table-td-w122" style="line-height: 20px;width: 9%"><div style="height: 20px">购物链接<span style="color: red;font-size: 20px">*</span></div><div style="color: red;font-size: 10px;height: 20px">（若无链接，须上传截图）</div></li>
+                                    <li class="table-td table-td-w122" style="line-height: 15px;width: 9%;position: relative">
+                                        <img class="comment_pics" onclick="showImg1(this)" style="max-width: 60px;max-height: 50px;margin-left: 20px;position: absolute;top:0;right:20%" border="0" src="/images/show_img.png">
+                                        <div style="height: 20px">购物截图</div><div style="color: red;font-size: 10px;height: 20px">（乐淘一番订单，只须上传乐淘一番购物平台订单截图）</div>
+                                    </li>
+                                    <li class="table-td table-td-w82" style="width: 9%"> 操作</li>
+                                </ul>
+                            </div>
+                            <div class="table table-tbody jsAddGoods jsAddGoodsFor10923090">
+                            <div> <ul class="table-tr">             <li class="table-td table-td-w122" style="width: 9%"> <input type="text" style="width:95%;margin-left:2px" name="goods_type_cn_10923090[]" value="" class="buyoff-ipt" required="" tabindex="122">             </li>             <li class="table-td table-td-w122" style="width: 9%"> <input type="text" style="width:95%;margin-left:2px" name="goods_type_en_10923090[]" value="" class="buyoff-ipt" required="" tabindex="123">             </li>             <li class="table-td table-td-w122" style="width: 9%"> <input type="text" placeholder="请勿填写特殊符号" style="width:95%;margin-left:2px" name="goods_text_cn_10923090[]" value="软乙烯基动物套件" class="buyoff-ipt" required="" tabindex="124">             </li>             <li class="table-td table-td-w122" style="width: 9%"> <input type="text" style="width:95%;margin-left:2px" placeholder="请勿填写特殊符号" name="goods_text_jp_10923090[]" value="ソフビ　動物セット" class="buyoff-ipt" required="" tabindex="125">             </li>             <li class="table-td table-td-w122" style="width: 9%"> <input type="text" style="width:95%;margin-left:2px" name="goods_text_detail_10923090[]" value="" class="buyoff-ipt" required="" tabindex="126">             </li>             <li class="table-td table-td-w122" style="width: 9%"> <input type="text" style="width:90%;margin-left:2px" name="goods_price_10923090[]" value="2600" class="buyoff-ipt w102-buyoff hintPopipt" tabindex="127"> </li>             <li class="table-td table-td-w122" style="width: 9%"> <input type="number" style="width:90%;margin-left:2px" name="goods_quantity_10923090[]" min="1" value="1" class="buyoff-ipt w60-buyoff hintPopipt" tabindex="128"> </li>             <li class="table-td table-td-w122" style="width: 9%"> <input type="text" placeholder="请勿填写特殊符号" style="width:95%;;margin-left:2px" name="goods_barcode_10923090[]" value="" class="buyoff-ipt" onblur="check_text(this)" tabindex="129">             </li>             <li class="table-td table-td-w122" style="width: 9%"> <input type="text" style="width:95%;margin-left:12px;" name="goods_link_10923090[]" min="1" value="https://mall.leyifan.com/subPackages/pagesOther/transaction_snapshot/index?product_id=25284591&amp;pwd=HEKWj3lLR2CU0PtWXJ9kFkxZrwQ31PndSRsL73Jczoc%3D" class="buyoff-ipt" readonly="readonly" tabindex="130"> </li>             <li class="table-td table-td-w122" style="width: 9%"> <div class="div_btn" style="position: relative;">上传<label><input class="img_up" id="img_up" ticketid="10923090_0" type="file" style="position: absolute; top: 0; left: 0; opacity: 0; cursor: pointer; height: 40px; width: 100%;" name="file" onchange="uploadImg(this)" accept="image/*" tabindex="131"></label></div>            <div style="float: right;width: 60px;margin-top: -40px;"><img class="comment_pics" id="show_10923090_0" onclick="showImg(this)" style="max-width: 60px;max-height: 50px;margin-left: 20px;" border="0" src=""></div><input id="10923090_0" name="goods_img_10923090[]" style="display: none" value="" tabindex="132"> </li>             <li class="table-td table-td-w122" style="width: 9%"><a href="javascript:;" style="margin-left:40px;color: red" class="butDet-tr">删除</a></li>             </ul>             <div class="table-error"> </div> </div></div>
+                            <div class="lw-buyoff-h40">
+                                <a href="javascript:;" data-ticket-id="10923090" class="butAddoff">添加新商品</a>
+                            </div>
+                        </div>
+                        <div class="bg">
+                            <img class="bgImg" style="max-width: 100%; max-height: 100%; position: fixed;" src="">
+                        </div>
+                        <div class="lw-buyoff lw-buyoff-02 jsGoodsModeShow" style="display:none">
+                            <table class="addgoods" align="center" cellpadding="0" cellspacing="0">
+                                <thead>
+                                <tr>
+                                    <td style="width: 11%">中文品牌名</td>
+                                    <td style="width: 11%">英/日文品牌名</td>
+                                    <td style="width: 11%">商品中文名称</td>
+                                    <td style="width: 11%">商品日文名称</td>
+                                    <td style="width: 11%">商品规格</td>
+                                    <td style="width: 11%">单价(日元)</td>
+                                    <td style="width: 11%">数量（个）</td>
+                                    <td style="width: 11%">商品条码</td>
+                                    <td style="overflow:hidden;white-space:nowrap;text-overflow: ellipsis; width: 11%">购物链接</td>
+                                    <td style="width: 11%">购物截图</td>
+                                </tr>
+                                </thead>
+                                <tbody class="jsAddGoods jsAddGoodsFor10923090">
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                                        <div class="lw-wrapinfo">
+                        <strong style="color:#333">包裹信息</strong>
+                        <span>转运单号: 120308-5869</span>
+                        <span>包裹来源: Paypay</span>
+                        <span>购物单消费总额: </span>
+                                                <span>电商快递单号: z408314496</span>
+                                                <span class="jsWeight">重量: 470g</span>
+                        <span>标记: </span>
+                    </div>
+                    <div class="err_" style="background-color: #f8afbc; border: 1px solid #d36679; padding-left: 20px; color: #bd5264; width: 1138px;height: 20px;display: none;">
+                        <span class="&quot;+temp+&quot;">商品总重量不能大于包裹重量</span>
+                    </div>
+                    <div class="wrapinfo-list">
+                        <div class="lw-buyoff jsGoodsModeEdit">
+                            <div class="table table-thead">
+                                <ul class="table-tr">
+                                    <li class="table-td table-td-w122" style="width: 9%">中文品牌名<span style="color: red;font-size: 20px">*</span></li>
+                                    <li class="table-td table-td-w122" style="width: 9%">英/日文品牌名<span style="color: red;font-size: 20px">*</span></li>
+                                    <li class="table-td table-td-w122" style="width: 9%">商品中文名称<span style="color: red;font-size: 20px">*</span></li>
+                                    <li class="table-td table-td-w122" style="line-height: 25px;width: 9%"><div style="height: 20px">商品日文名称<span style="color: red;font-size: 20px">*</span></div><div style="color: red;font-size: 10px;height: 20px">（请用日文填写）</div></li>
+                                    <li class="table-td table-td-w122" style="line-height: 15px;width: 9%">
+                                        <div style="height: 20px">商品规格<span style="color: red;font-size: 20px">*</span></div><div style="color: red;font-size: 10px;height: 20px">（比如颜色，型号，尺码，净含量等）</div>
+                                        <!--                                                <em style="top: 0px; right: 65%" class = "ht-status2"></em>-->
+                                    </li>
+                                    <li class="table-td table-td-w122" style="width: 9%">单价(日元)<span style="color: red;font-size: 20px">*</span></li>
+                                    <li class="table-td table-td-w122" style="width: 9%">数量（个）<span style="color: red;font-size: 20px">*</span></li>
+                                    <li class="table-td table-td-w122" style="line-height: 20px;width: 9%"><div style="height: 20px">商品条码</div><div style="font-size: 10px;height: 20px">（若无条码信息，可不填）</div></li>
+                                    <li class="table-td table-td-w122" style="line-height: 20px;width: 9%"><div style="height: 20px">购物链接<span style="color: red;font-size: 20px">*</span></div><div style="color: red;font-size: 10px;height: 20px">（若无链接，须上传截图）</div></li>
+                                    <li class="table-td table-td-w122" style="line-height: 15px;width: 9%;position: relative">
+                                        <img class="comment_pics" onclick="showImg1(this)" style="max-width: 60px;max-height: 50px;margin-left: 20px;position: absolute;top:0;right:20%" border="0" src="/images/show_img.png">
+                                        <div style="height: 20px">购物截图</div><div style="color: red;font-size: 10px;height: 20px">（乐淘一番订单，只须上传乐淘一番购物平台订单截图）</div>
+                                    </li>
+                                    <li class="table-td table-td-w82" style="width: 9%"> 操作</li>
+                                </ul>
+                            </div>
+                            <div class="table table-tbody jsAddGoods jsAddGoodsFor10942863">
+                            <div> <ul class="table-tr">             <li class="table-td table-td-w122" style="width: 9%"> <input type="text" style="width:95%;margin-left:2px" name="goods_type_cn_10942863[]" value="" class="buyoff-ipt" required="" tabindex="133">             </li>             <li class="table-td table-td-w122" style="width: 9%"> <input type="text" style="width:95%;margin-left:2px" name="goods_type_en_10942863[]" value="" class="buyoff-ipt" required="" tabindex="134">             </li>             <li class="table-td table-td-w122" style="width: 9%"> <input type="text" placeholder="请勿填写特殊符号" style="width:95%;margin-left:2px" name="goods_text_cn_10942863[]" value="Corgent Gear Frog＃10件套装#New和未使用的#made #Made #New and New and opened" class="buyoff-ipt" required="" tabindex="135">             </li>             <li class="table-td table-td-w122" style="width: 9%"> <input type="text" style="width:95%;margin-left:2px" placeholder="请勿填写特殊符号" name="goods_text_jp_10942863[]" value="コルゲンコーワガエル　#１０体セット　　　　　　#新品未使用　#１９６８年製造　#新品未開封 　　　　　　　" class="buyoff-ipt" required="" tabindex="136">             </li>             <li class="table-td table-td-w122" style="width: 9%"> <input type="text" style="width:95%;margin-left:2px" name="goods_text_detail_10942863[]" value="" class="buyoff-ipt" required="" tabindex="137">             </li>             <li class="table-td table-td-w122" style="width: 9%"> <input type="text" style="width:90%;margin-left:2px" name="goods_price_10942863[]" value="7500" class="buyoff-ipt w102-buyoff hintPopipt" tabindex="138"> </li>             <li class="table-td table-td-w122" style="width: 9%"> <input type="number" style="width:90%;margin-left:2px" name="goods_quantity_10942863[]" min="1" value="1" class="buyoff-ipt w60-buyoff hintPopipt" tabindex="139"> </li>             <li class="table-td table-td-w122" style="width: 9%"> <input type="text" placeholder="请勿填写特殊符号" style="width:95%;;margin-left:2px" name="goods_barcode_10942863[]" value="" class="buyoff-ipt" onblur="check_text(this)" tabindex="140">             </li>             <li class="table-td table-td-w122" style="width: 9%"> <input type="text" style="width:95%;margin-left:12px;" name="goods_link_10942863[]" min="1" value="https://mall.leyifan.com/subPackages/pagesOther/transaction_snapshot/index?product_id=25284307&amp;pwd=HEKWj3lLR2CU0PtWXJ9kFkxZrwQ31Pndm3PCnJ2iTnE%3D" class="buyoff-ipt" readonly="readonly" tabindex="141"> </li>             <li class="table-td table-td-w122" style="width: 9%"> <div class="div_btn" style="position: relative;">上传<label><input class="img_up" id="img_up" ticketid="10942863_0" type="file" style="position: absolute; top: 0; left: 0; opacity: 0; cursor: pointer; height: 40px; width: 100%;" name="file" onchange="uploadImg(this)" accept="image/*" tabindex="142"></label></div>            <div style="float: right;width: 60px;margin-top: -40px;"><img class="comment_pics" id="show_10942863_0" onclick="showImg(this)" style="max-width: 60px;max-height: 50px;margin-left: 20px;" border="0" src=""></div><input id="10942863_0" name="goods_img_10942863[]" style="display: none" value="" tabindex="143"> </li>             <li class="table-td table-td-w122" style="width: 9%"><a href="javascript:;" style="margin-left:40px;color: red" class="butDet-tr">删除</a></li>             </ul>             <div class="table-error"> </div> </div></div>
+                            <div class="lw-buyoff-h40">
+                                <a href="javascript:;" data-ticket-id="10942863" class="butAddoff">添加新商品</a>
+                            </div>
+                        </div>
+                        <div class="bg">
+                            <img class="bgImg" style="max-width: 100%; max-height: 100%; position: fixed;" src="">
+                        </div>
+                        <div class="lw-buyoff lw-buyoff-02 jsGoodsModeShow" style="display:none">
+                            <table class="addgoods" align="center" cellpadding="0" cellspacing="0">
+                                <thead>
+                                <tr>
+                                    <td style="width: 11%">中文品牌名</td>
+                                    <td style="width: 11%">英/日文品牌名</td>
+                                    <td style="width: 11%">商品中文名称</td>
+                                    <td style="width: 11%">商品日文名称</td>
+                                    <td style="width: 11%">商品规格</td>
+                                    <td style="width: 11%">单价(日元)</td>
+                                    <td style="width: 11%">数量（个）</td>
+                                    <td style="width: 11%">商品条码</td>
+                                    <td style="overflow:hidden;white-space:nowrap;text-overflow: ellipsis; width: 11%">购物链接</td>
+                                    <td style="width: 11%">购物截图</td>
+                                </tr>
+                                </thead>
+                                <tbody class="jsAddGoods jsAddGoodsFor10942863">
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                                        <div class="lw-wrapinfo">
+                        <strong style="color:#333">包裹信息</strong>
+                        <span>转运单号: 120308-7471</span>
+                        <span>包裹来源: Suruga</span>
+                        <span>购物单消费总额: </span>
+                                                <span>电商快递单号: 560348012</span>
+                                                <span class="jsWeight">重量: 270g</span>
+                        <span>标记: </span>
+                    </div>
+                    <div class="err_" style="background-color: #f8afbc; border: 1px solid #d36679; padding-left: 20px; color: #bd5264; width: 1138px;height: 20px;display: none;">
+                        <span class="&quot;+temp+&quot;">商品总重量不能大于包裹重量</span>
+                    </div>
+                    <div class="wrapinfo-list">
+                        <div class="lw-buyoff jsGoodsModeEdit">
+                            <div class="table table-thead">
+                                <ul class="table-tr">
+                                    <li class="table-td table-td-w122" style="width: 9%">中文品牌名<span style="color: red;font-size: 20px">*</span></li>
+                                    <li class="table-td table-td-w122" style="width: 9%">英/日文品牌名<span style="color: red;font-size: 20px">*</span></li>
+                                    <li class="table-td table-td-w122" style="width: 9%">商品中文名称<span style="color: red;font-size: 20px">*</span></li>
+                                    <li class="table-td table-td-w122" style="line-height: 25px;width: 9%"><div style="height: 20px">商品日文名称<span style="color: red;font-size: 20px">*</span></div><div style="color: red;font-size: 10px;height: 20px">（请用日文填写）</div></li>
+                                    <li class="table-td table-td-w122" style="line-height: 15px;width: 9%">
+                                        <div style="height: 20px">商品规格<span style="color: red;font-size: 20px">*</span></div><div style="color: red;font-size: 10px;height: 20px">（比如颜色，型号，尺码，净含量等）</div>
+                                        <!--                                                <em style="top: 0px; right: 65%" class = "ht-status2"></em>-->
+                                    </li>
+                                    <li class="table-td table-td-w122" style="width: 9%">单价(日元)<span style="color: red;font-size: 20px">*</span></li>
+                                    <li class="table-td table-td-w122" style="width: 9%">数量（个）<span style="color: red;font-size: 20px">*</span></li>
+                                    <li class="table-td table-td-w122" style="line-height: 20px;width: 9%"><div style="height: 20px">商品条码</div><div style="font-size: 10px;height: 20px">（若无条码信息，可不填）</div></li>
+                                    <li class="table-td table-td-w122" style="line-height: 20px;width: 9%"><div style="height: 20px">购物链接<span style="color: red;font-size: 20px">*</span></div><div style="color: red;font-size: 10px;height: 20px">（若无链接，须上传截图）</div></li>
+                                    <li class="table-td table-td-w122" style="line-height: 15px;width: 9%;position: relative">
+                                        <img class="comment_pics" onclick="showImg1(this)" style="max-width: 60px;max-height: 50px;margin-left: 20px;position: absolute;top:0;right:20%" border="0" src="/images/show_img.png">
+                                        <div style="height: 20px">购物截图</div><div style="color: red;font-size: 10px;height: 20px">（乐淘一番订单，只须上传乐淘一番购物平台订单截图）</div>
+                                    </li>
+                                    <li class="table-td table-td-w82" style="width: 9%"> 操作</li>
+                                </ul>
+                            </div>
+                            <div class="table table-tbody jsAddGoods jsAddGoodsFor10948723">
+                            <div> <ul class="table-tr">             <li class="table-td table-td-w122" style="width: 9%"> <input type="text" style="width:95%;margin-left:2px" name="goods_type_cn_10948723[]" value="" class="buyoff-ipt" required="" tabindex="144">             </li>             <li class="table-td table-td-w122" style="width: 9%"> <input type="text" style="width:95%;margin-left:2px" name="goods_type_en_10948723[]" value="" class="buyoff-ipt" required="" tabindex="145">             </li>             <li class="table-td table-td-w122" style="width: 9%"> <input type="text" placeholder="请勿填写特殊符号" style="width:95%;margin-left:2px" name="goods_text_cn_10948723[]" value="一组8种类型的“ Pupple Friend丙烯酸钥匙扣”" class="buyoff-ipt" required="" tabindex="146">             </li>             <li class="table-td table-td-w122" style="width: 9%"> <input type="text" style="width:95%;margin-left:2px" placeholder="请勿填写特殊符号" name="goods_text_jp_10948723[]" value="全8種セット 「ぷっぷるとおともだち アクリルキーホルダー」" class="buyoff-ipt" required="" tabindex="147">             </li>             <li class="table-td table-td-w122" style="width: 9%"> <input type="text" style="width:95%;margin-left:2px" name="goods_text_detail_10948723[]" value="" class="buyoff-ipt" required="" tabindex="148">             </li>             <li class="table-td table-td-w122" style="width: 9%"> <input type="text" style="width:90%;margin-left:2px" name="goods_price_10948723[]" value="1480" class="buyoff-ipt w102-buyoff hintPopipt" tabindex="149"> </li>             <li class="table-td table-td-w122" style="width: 9%"> <input type="number" style="width:90%;margin-left:2px" name="goods_quantity_10948723[]" min="1" value="1" class="buyoff-ipt w60-buyoff hintPopipt" tabindex="150"> </li>             <li class="table-td table-td-w122" style="width: 9%"> <input type="text" placeholder="请勿填写特殊符号" style="width:95%;;margin-left:2px" name="goods_barcode_10948723[]" value="" class="buyoff-ipt" onblur="check_text(this)" tabindex="151">             </li>             <li class="table-td table-td-w122" style="width: 9%"> <input type="text" style="width:95%;margin-left:12px;" name="goods_link_10948723[]" min="1" value="https://mall.leyifan.com/subPackages/pagesOther/transaction_snapshot/index?product_id=24854594&amp;pwd=Cpq3OHzq337nSj0w18vuzLxq3pNyP%2FPwHHoZns40xcM%3D" class="buyoff-ipt" readonly="readonly" tabindex="152"> </li>             <li class="table-td table-td-w122" style="width: 9%"> <div class="div_btn" style="position: relative;">上传<label><input class="img_up" id="img_up" ticketid="10948723_0" type="file" style="position: absolute; top: 0; left: 0; opacity: 0; cursor: pointer; height: 40px; width: 100%;" name="file" onchange="uploadImg(this)" accept="image/*" tabindex="153"></label></div>            <div style="float: right;width: 60px;margin-top: -40px;"><img class="comment_pics" id="show_10948723_0" onclick="showImg(this)" style="max-width: 60px;max-height: 50px;margin-left: 20px;" border="0" src=""></div><input id="10948723_0" name="goods_img_10948723[]" style="display: none" value="" tabindex="154"> </li>             <li class="table-td table-td-w122" style="width: 9%"><a href="javascript:;" style="margin-left:40px;color: red" class="butDet-tr">删除</a></li>             </ul>             <div class="table-error"> </div> </div></div>
+                            <div class="lw-buyoff-h40">
+                                <a href="javascript:;" data-ticket-id="10948723" class="butAddoff">添加新商品</a>
+                            </div>
+                        </div>
+                        <div class="bg">
+                            <img class="bgImg" style="max-width: 100%; max-height: 100%; position: fixed;" src="">
+                        </div>
+                        <div class="lw-buyoff lw-buyoff-02 jsGoodsModeShow" style="display:none">
+                            <table class="addgoods" align="center" cellpadding="0" cellspacing="0">
+                                <thead>
+                                <tr>
+                                    <td style="width: 11%">中文品牌名</td>
+                                    <td style="width: 11%">英/日文品牌名</td>
+                                    <td style="width: 11%">商品中文名称</td>
+                                    <td style="width: 11%">商品日文名称</td>
+                                    <td style="width: 11%">商品规格</td>
+                                    <td style="width: 11%">单价(日元)</td>
+                                    <td style="width: 11%">数量（个）</td>
+                                    <td style="width: 11%">商品条码</td>
+                                    <td style="overflow:hidden;white-space:nowrap;text-overflow: ellipsis; width: 11%">购物链接</td>
+                                    <td style="width: 11%">购物截图</td>
+                                </tr>
+                                </thead>
+                                <tbody class="jsAddGoods jsAddGoodsFor10948723">
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                                        <div class="hint-txt jsGoodsPriceBeyond" style="display:none">
+                        <p>根据日本邮政规定：</p>
+                        <p>1. 含单件物品价值超过20万日元的包裹不可运送。</p>
+                        <p>2. 含2件以上且总价值20万日元以上的包裹须做出口申报，海关审核批准后方可继续运送，且此手续需要一定时间。</p>
+                        <p>3. 2017年4月1日起日本邮政对上述出口申报收取3200日元代申报手续费。</p>
+                        <p>4. 出于安全考虑，对价值20万日元以上的包裹建议选择附保险的EMS运送方式。</p>
+                        <p>5. 同一人和地址于同一天不可同时发出多个价值20万日元以上的包裹。若有此需求请隔开至少2天以上再发第二个。</p>
+                    </div>
+                    <div class="hint-txt jsGoodsWeightBeyond" style="display:none">
+                        <p>商品总重量不能大于包裹重量</p>
+                    </div>
+                    <span class="lw-total">
+            <span id="jsGoodsPriceRisk" style="display:none;font-size:13px;color:#b33b4f;">
+            （友情提醒：根据中国海关规定，一个包裹内含有多个商品时总价值不得超过30000日元，否则可能会有被退运的风险。）
+            </span>
+            总计：<em class="jsTotalGoodsPrice">-</em>円            &nbsp;&nbsp;&nbsp;&nbsp;
+                        <!--            商品总重量：<em class="jsTotalGoodsWeight">-</em>g-->
+                            总数量：<em class="jsTotalGoodsCount">-</em>
+        </span>
+                    <div>
+                        <input id="tj" type="button" value="提交" class="lw-apfor-input-but jsBtnAddGoodsConfirm" tabindex="155">
+                        <input type="button" value="修改" class="lw-apfor-input-but lw-apfor-input-edit-but jsBtnAddGoodsEdit" style="display:none" tabindex="156">
+                    </div>
+                </div>

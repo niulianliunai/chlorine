@@ -40,9 +40,17 @@ public abstract class BaseEntity {
     @ColumnComment("更新时间")
     private Long updateTime;
 
-    @Column(columnDefinition = " int(11) default 0 ")
-    private Integer version;
+    @CreatedBy
+    @Column(name = "created_by", updatable = false, length = 64)
+    private String createdBy;
 
+    @LastModifiedBy
+    @Column(name = "updated_by", length = 64)
+    private String updatedBy;
+
+    @Column(columnDefinition = "tinyint(1) default 0")
+    @ColumnComment("逻辑删除标识")
+    private Boolean deleted = false;
     @Transient
     private Integer pageSize;
 
@@ -52,22 +60,6 @@ public abstract class BaseEntity {
     @Transient
     private Map<String, Object> params = new HashMap<>();
 
-//    @Transient
-//    private List<Predicate> predicateList = new ArrayList<>();
-//
-
-
-//    @CreatedBy
-//    @Column(name = "created_by", updatable = false, length = 64)
-//    private String createdBy;
-//
-//    @LastModifiedBy
-//    @Column(name = "updated_by", length = 64)
-//    private String updatedBy;
-
-    @Column(columnDefinition = "tinyint(1) default 0")
-    @ColumnComment("逻辑删除标识")
-    private Boolean deleted = false;
 
 //    @PrePersist
 //    protected void onCreate() {
